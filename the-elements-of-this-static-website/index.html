@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="an esoteric corner of the web">
+    
+    <link rel="shortcut icon" href="https://adrochoa.github.io/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>The Elements of This Static Website</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://adrochoa.github.io">Math, Music, Misc.</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/about/" title="about">about</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>The Elements of This Static Website</h1>
+        <div>
+                <time>May 18, 2022</time>
+            </div>
+    </header><p>This is a simple static website as a portfolio of my work and interests.
+I wanted to create a legitimate website and not only use social media (I want to start using Twitter and Soundcloud too).</p>
+<p>The following approach worked for me but I know it is also fairly technical.
+There are many managed approaches to creating a website that are pretty cheap and do not require technical skills.
+I stumbled upon blot.im for example. It is only a few dollars a month and reduces making a website to putting files in a folder.</p>
+<p>For this website however, I decided to use Hugo, a simple static website generator written in the Go programming language.
+It is fast and easy to use, requiring only Markdown to edit posts.
+There are other approaches to making a website but this seemed easy enough and free.
+The skills required to do this are a proficiency with Git version control and using command-line tools in general.</p>
+<p>For themeing, as of this writing, I am using the etch theme which I chose for its absolute simplicity.
+I really want the site to be focused on content and this theme is great at staying out of the way.</p>
+<p>Tools Recap:</p>
+<ul>
+<li>Git, Github Pages and Github Repositories (for hosting and version control)</li>
+<li>Text Editor for posts (Visual Studio Code renders Markdown out of the box)</li>
+<li>Hugo to generate the website</li>
+</ul>
+<p>I did this on an Ubuntu-based GNU/Linux system installed on an old HP Stream laptop. I installed Hugo with Snap since it is the latest version.
+Git was already installed. The same or similar procedures should work with Windows or MacOS.
+But basically, with these tools you can create a user website via a repository in Github called username.github.io (which is also your website URL).
+This is then used as a submodule to your Hugo project repository (adrochoa.generator in this case). The theme is also a submodule in case it gets updated upstream.
+Using this approach keeps everything clean and version controlled: you can always roll back if your website breaks.</p>
+<p>Here is a tree of the directory/repository structure:</p>
+<pre><code>~/Public/adrochoa.generator$ tree -d -L 2
+.
+├── adrochoa.github.io
+│   ├── about
+│   ├── categories
+│   ├── css
+│   ├── my-first-post
+│   ├── posts
+│   └── tags
+├── archetypes
+├── content
+│   ├── about
+│   └── posts
+├── resources
+│   └── _gen
+└── themes
+    └── etch
+</code></pre>
+<p>etch, adrochoa.github.io and adrochoa.generator are separate repositories.
+Using the submodule approach, the outer repository, adrochoa.generator commits the commit hashes of the subrepositories, but not the content.
+The inner repositories, etch and adrochoa.github.io, are independent of any other repository as far as Git is concerned.
+We never directly modify adrochoa.github.io or etch: Hugo will modify adrochoa.github.io for us based on our Markdown files and we leave themeing to the etch folks.
+So once this is setup, we only need to edit some Markdown and run Hugo in the command-line.
+Then we just commit and push everything. Github Pages wil render the update. Here are some links with more details on these tools and the nuts and bolts of this approach.</p>
+<ol start="0">
+<li><a href="https://pages.github.com/">https://pages.github.com/</a></li>
+<li><a href="https://gohugo.io/">https://gohugo.io/</a></li>
+<li><a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></li>
+<li><a href="https://www.markdownguide.org/">https://www.markdownguide.org/</a></li>
+<li><a href="https://blot.im/">https://blot.im/</a></li>
+<li><a href="https://github.com/LukasJoswiak/etch">https://github.com/LukasJoswiak/etch</a></li>
+</ol>
+</article>
+
+        </main><footer id="footer">
+    ©2021
+</footer>
+</body>
+</html>

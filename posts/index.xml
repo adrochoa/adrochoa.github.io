@@ -6,19 +6,73 @@
     <description>Recent content in Posts on Math, Music, Misc.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 18 Apr 2021 11:51:15 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 18 May 2022 11:51:15 -0500</lastBuildDate>
     
 	<atom:link href="https://adrochoa.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
     <item>
-      <title>My First Post</title>
-      <link>https://adrochoa.github.io/my-first-post/</link>
-      <pubDate>Sun, 18 Apr 2021 11:51:15 -0500</pubDate>
+      <title>The Elements of This Static Website</title>
+      <link>https://adrochoa.github.io/the-elements-of-this-static-website/</link>
+      <pubDate>Wed, 18 May 2022 11:51:15 -0500</pubDate>
       
-      <guid>https://adrochoa.github.io/my-first-post/</guid>
-      <description>&lt;p&gt;Content goes here.&lt;/p&gt;
+      <guid>https://adrochoa.github.io/the-elements-of-this-static-website/</guid>
+      <description>&lt;p&gt;This is a simple static website as a portfolio of my work and interests.
+I wanted to create a legitimate website and not only use social media (I want to start using Twitter and Soundcloud too).&lt;/p&gt;
+&lt;p&gt;The following approach worked for me but I know it is also fairly technical.
+There are many managed approaches to creating a website that are pretty cheap and do not require technical skills.
+I stumbled upon blot.im for example. It is only a few dollars a month and reduces making a website to putting files in a folder.&lt;/p&gt;
+&lt;p&gt;For this website however, I decided to use Hugo, a simple static website generator written in the Go programming language.
+It is fast and easy to use, requiring only Markdown to edit posts.
+There are other approaches to making a website but this seemed easy enough and free.
+The skills required to do this are a proficiency with Git version control and using command-line tools in general.&lt;/p&gt;
+&lt;p&gt;For themeing, as of this writing, I am using the etch theme which I chose for its absolute simplicity.
+I really want the site to be focused on content and this theme is great at staying out of the way.&lt;/p&gt;
+&lt;p&gt;Tools Recap:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Git, Github Pages and Github Repositories (for hosting and version control)&lt;/li&gt;
+&lt;li&gt;Text Editor for posts (Visual Studio Code renders Markdown out of the box)&lt;/li&gt;
+&lt;li&gt;Hugo to generate the website&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I did this on an Ubuntu-based GNU/Linux system installed on an old HP Stream laptop. I installed Hugo with Snap since it is the latest version.
+Git was already installed. The same or similar procedures should work with Windows or MacOS.
+But basically, with these tools you can create a user website via a repository in Github called username.github.io (which is also your website URL).
+This is then used as a submodule to your Hugo project repository (adrochoa.generator in this case). The theme is also a submodule in case it gets updated upstream.
+Using this approach keeps everything clean and version controlled: you can always roll back if your website breaks.&lt;/p&gt;
+&lt;p&gt;Here is a tree of the directory/repository structure:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;~/Public/adrochoa.generator$ tree -d -L 2
+.
+├── adrochoa.github.io
+│   ├── about
+│   ├── categories
+│   ├── css
+│   ├── my-first-post
+│   ├── posts
+│   └── tags
+├── archetypes
+├── content
+│   ├── about
+│   └── posts
+├── resources
+│   └── _gen
+└── themes
+    └── etch
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;etch, adrochoa.github.io and adrochoa.generator are separate repositories.
+Using the submodule approach, the outer repository, adrochoa.generator commits the commit hashes of the subrepositories, but not the content.
+The inner repositories, etch and adrochoa.github.io, are independent of any other repository as far as Git is concerned.
+We never directly modify adrochoa.github.io or etch: Hugo will modify adrochoa.github.io for us based on our Markdown files and we leave themeing to the etch folks.
+So once this is setup, we only need to edit some Markdown and run Hugo in the command-line.
+Then we just commit and push everything. Github Pages wil render the update. Here are some links with more details on these tools and the nuts and bolts of this approach.&lt;/p&gt;
+&lt;ol start=&#34;0&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;https://pages.github.com/&#34;&gt;https://pages.github.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;https://gohugo.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;https://code.visualstudio.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.markdownguide.org/&#34;&gt;https://www.markdownguide.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blot.im/&#34;&gt;https://blot.im/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/LukasJoswiak/etch&#34;&gt;https://github.com/LukasJoswiak/etch&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
