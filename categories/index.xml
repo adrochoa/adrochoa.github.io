@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Math, Music, Misc.</title><link>https://adrochoa.github.io/categories/</link><description>Recent content in Categories on Math, Music, Misc.</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><atom:link href="https://adrochoa.github.io/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Github Actions</title><link>https://adrochoa.github.io/github-actions/</link><pubDate>Sun, 10 Jul 2022 05:49:35 -0700</pubDate><guid>https://adrochoa.github.io/github-actions/</guid><description>&lt;p>This is to test github actions so that I can automate building my static github page with hugo.&lt;/p></description></item><item><title>Favorite Sites</title><link>https://adrochoa.github.io/favorite-sites/</link><pubDate>Tue, 05 Jul 2022 20:12:11 -0700</pubDate><guid>https://adrochoa.github.io/favorite-sites/</guid><description>&lt;p>Simple websites are great for quickly gathering information.
+I plan to keep this website simple and content-focused.
+Modern websites seem to have many layers of advertisements, audio, video and splash pages before getting to the desired content. Here are some websites that I think do a good job of focusing on content. I will revisit this page to add websites as I come across them.&lt;/p>
+&lt;ol start="0">
+&lt;li>&lt;a href="http://wiby.me/">http://wiby.me/&lt;/a> Search engine for the classic web&lt;/li>
+&lt;li>&lt;a href="https://teddit.net/">https://teddit.net/&lt;/a> A less adversarial reddit frontend&lt;/li>
+&lt;li>&lt;a href="https://news.ycombinator.com/">https://news.ycombinator.com/&lt;/a> Technology and career-focused news aggregator&lt;/li>
+&lt;li>&lt;a href="https://tinyprojects.dev/">https://tinyprojects.dev/&lt;/a> A developer and his projects&lt;/li>
+&lt;li>&lt;a href="https://wttr.in/">https://wttr.in/&lt;/a> Simple text-based weather&lt;/li>
+&lt;li>&lt;a href="https://legiblenews.com/">https://legiblenews.com/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://lite.cnn.com/en">https://lite.cnn.com/en&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.cbc.ca/lite/news">https://www.cbc.ca/lite/news&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://skimfeed.com/">https://skimfeed.com/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://text.npr.org/">https://text.npr.org/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.pxlet.com/">https://www.pxlet.com/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://retro.hackaday.com/">https://retro.hackaday.com/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.reuters.com/">https://www.reuters.com/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.laarc.io/">https://www.laarc.io/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.techdirt.com/">https://www.techdirt.com/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.reddit.com/.compact">https://www.reddit.com/.compact&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://tilde.club/">https://tilde.club/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://mataroa.blog/">https://mataroa.blog/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://havenweb.org/">https://havenweb.org/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://lite.duckduckgo.com/lite">https://lite.duckduckgo.com/lite&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://txti.es/">https://txti.es/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.conventionalcommits.org/">https://www.conventionalcommits.org/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://10kb.neocities.org/">https://10kb.neocities.org/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.privado.com/">https://blog.privado.com/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://unitprice.org/">https://unitprice.org/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://minwiz.com/">https://minwiz.com/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://trends24.live/">https://trends24.live/&lt;/a>&lt;/li>
+&lt;/ol></description></item><item><title>The Elements of This Static Website</title><link>https://adrochoa.github.io/the-elements-of-this-static-website/</link><pubDate>Wed, 18 May 2022 11:51:15 -0500</pubDate><guid>https://adrochoa.github.io/the-elements-of-this-static-website/</guid><description>&lt;p>This is a simple static website as a portfolio of my work and interests.
+I wanted to create a legitimate website and not only use social media (I want to start using Twitter and Soundcloud too).&lt;/p>
+&lt;p>The following approach worked for me but I know it is also fairly technical.
+There are many managed approaches to creating a website that are pretty cheap and do not require technical skills.
+I stumbled upon blot.im for example. It is only a few dollars a month and reduces making a website to putting files in a folder.&lt;/p>
+&lt;p>For this website however, I decided to use Hugo, a simple static website generator written in the Go programming language.
+It is fast and easy to use, requiring only Markdown to edit posts.
+There are other approaches to making a website but this seemed easy enough and free.
+The skills required to do this are a proficiency with Git version control and using command-line tools in general.&lt;/p>
+&lt;p>For themeing, as of this writing, I am using the etch theme which I chose for its absolute simplicity.
+I really want the site to be focused on content and this theme is great at staying out of the way.&lt;/p>
+&lt;p>Tools Recap:&lt;/p>
+&lt;ul>
+&lt;li>Git, Github Pages and Github Repositories (for hosting and version control)&lt;/li>
+&lt;li>Text Editor for posts (Visual Studio Code renders Markdown out of the box)&lt;/li>
+&lt;li>Hugo to generate the website&lt;/li>
+&lt;/ul>
+&lt;p>I did this on an Ubuntu-based GNU/Linux system installed on an old HP Stream laptop. I installed Hugo with Snap since it is the latest version.
+Git was already installed. The same or similar procedures should work with Windows or MacOS.
+But basically, with these tools you can create a user website via a repository in Github called username.github.io (which is also your website URL).
+This is then used as a submodule to your Hugo project repository (adrochoa.generator in this case). The theme is also a submodule in case it gets updated upstream.
+Using this approach keeps everything clean and version controlled: you can always roll back if your website breaks.&lt;/p>
+&lt;p>Here is a tree of the directory/repository structure:&lt;/p>
+&lt;pre>&lt;code>~/Public/adrochoa.generator$ tree -d -L 2
+.
+├── adrochoa.github.io
+│   ├── about
+│   ├── categories
+│   ├── css
+│   ├── my-first-post
+│   ├── posts
+│   └── tags
+├── archetypes
+├── content
+│   ├── about
+│   └── posts
+├── resources
+│   └── _gen
+└── themes
+└── etch
+&lt;/code>&lt;/pre>
+&lt;p>etch, adrochoa.github.io and adrochoa.generator are separate repositories.
+Using the submodule approach, the outer repository, adrochoa.generator commits the commit hashes of the subrepositories, but not the content.
+The inner repositories, etch and adrochoa.github.io, are independent of any other repository as far as Git is concerned.
+We never directly modify adrochoa.github.io or etch: Hugo will modify adrochoa.github.io for us based on our Markdown files and we leave themeing to the etch folks.
+So once this is setup, we only need to edit some Markdown and run Hugo in the command-line.
+Then we just commit and push everything. Github Pages wil render the update. Here are some links with more details on these tools and the nuts and bolts of this approach.&lt;/p>
+&lt;ol start="0">
+&lt;li>&lt;a href="https://pages.github.com/">https://pages.github.com/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gohugo.io/">https://gohugo.io/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://code.visualstudio.com/">https://code.visualstudio.com/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.markdownguide.org/">https://www.markdownguide.org/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blot.im/">https://blot.im/&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/LukasJoswiak/etch">https://github.com/LukasJoswiak/etch&lt;/a>&lt;/li>
+&lt;/ol></description></item></channel></rss>
