@@ -12,6 +12,22 @@
     
     
     <item>
+      <title>Youtube Sites</title>
+      <link>https://adrochoa.github.io/youtube-sites/</link>
+      <pubDate>Thu, 14 Jul 2022 21:00:19 +0000</pubDate>
+      
+      <guid>https://adrochoa.github.io/youtube-sites/</guid>
+      <description>&lt;p&gt;Here are some youtube websites that I enjoy:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://m.youtube.com/c/oddtinkering&#34;&gt;https://m.youtube.com/c/oddtinkering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://m.youtube.com/c/TechnologyConnections/videos&#34;&gt;https://m.youtube.com/c/TechnologyConnections/videos&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
       <title>Github Actions</title>
       <link>https://adrochoa.github.io/github-actions/</link>
       <pubDate>Sun, 10 Jul 2022 05:49:35 -0700</pubDate>
