@@ -34,3 +34,4 @@ Modern websites seem to have many layers of advertisements, audio, video and spl
 24. [https://unitprice.org/](https://unitprice.org/)
 25. [https://minwiz.com/](https://minwiz.com/)
 26. [https://trends24.live/](https://trends24.live/)
+27. [https://www.tomshardware.com/](https://www.tomshardware.com/)
