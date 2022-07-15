@@ -33,11 +33,11 @@
     
     
     <item>
-      <title>The Elements of This Static Website</title>
-      <link>https://adrochoa.github.io/the-elements-of-this-static-website/</link>
+      <title>This Static Website</title>
+      <link>https://adrochoa.github.io/this-static-website/</link>
       <pubDate>Wed, 13 Jul 2022 11:51:15 -0500</pubDate>
       
-      <guid>https://adrochoa.github.io/the-elements-of-this-static-website/</guid>
+      <guid>https://adrochoa.github.io/this-static-website/</guid>
       <description>&lt;p&gt;&lt;em&gt;Update: I have since switched to using Github Actions &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. See my post &lt;a href=&#34;https://adrochoa.github.io/github-actions/&#34;&gt;here&lt;/a&gt; for the details. This way can still serve many people however, so this post will remain. What I like about using Github Actions is that it enables me to more easily update this site on the go.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;This is a simple static website as a portfolio of my work and interests.
 I wanted to create a legitimate website and not only use social media (although I want to start using Twitter and Soundcloud too).&lt;/p&gt;
