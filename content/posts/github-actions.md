@@ -1,7 +1,14 @@
 ---
 title: "Github Actions"
-date: 2022-07-10T05:49:35-07:00
+date: 2022-07-13T05:49:35-07:00
 draft: false
 ---
-This is to test github actions so that I can automate building my static github page with hugo.
-This post was edited and changes pushed with iSH on iOS.
+I have recently switched workflows to utilize Github Actions.
+There are many Github Actions that can be performed on a repository.
+For this website, I am using actions from Shohei Ueda aka peaceiris. Specifically, I use ``actions-gh-pages`` and ``actions-hugo`` These are absolutely fantastic for my workflow since it enables me to more easily modify and post from my iPhone on the go by using iSH, which provides a GNU/Linux-like bash terminal complete with git, text editors and other command line goodies.
+The action is defined as YAML file in a branch in the git repository on which you would like to do something with. Actions can do many things including running build jobs, creating new branches and pull requesting branches. Additionally one could run tests, automating an entire continuous integration, continuous development (CI/CD) process. The action described here is relatively simple compared to what is possible though. Basically, I ditch the old setup with a single repository, username.github.io. The ``source`` branch contains the necessary Hugo folder configuration described in [my first post on creating this static website](/the-elements-of-this-static-website/).
+The ``main`` branch still has the Hugo-generated HTML files for the static site. Additionally, there is a ``gh-pages`` branch that stages any newly pushed content which is automatically pull requested to ``main``. The one caveat with this setup is that the ``source`` branch is somewhat unrelated to the content branches but this is a small sacrifice for the convenience that this workflow brings. In my source branch is the following YAML: *under construction*
+
+0. [https://github.com/features/actions](https://github.com/features/actions)
+1. [https://github.com/peaceiris](https://github.com/peaceiris)
+2. [https://ish.app/](https://ish.app/)
