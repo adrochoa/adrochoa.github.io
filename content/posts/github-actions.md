@@ -19,7 +19,41 @@ The ``source`` branch contains the necessary Hugo folder configuration described
 The ``main`` branch still has the Hugo-generated HTML files for the static site.
 Additionally, there is a ``gh-pages`` branch that stages any newly pushed content which is automatically pull requested to ``main``.
 The one caveat with this setup is that the ``source`` branch is somewhat unrelated to the other branches which contain the content but this is a small sacrifice for the convenience that this workflow brings.
-In my source branch is the following YAML: *under construction*
+In my source branch is the following YAML:
+
+    #.github/workflows/gh-pages.yml
+    name: github pages
+
+    on:
+      push:
+        branches:
+          - source  # Set a branch to deploy
+
+    jobs:
+      deploy:
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v2
+            with:
+              submodules: true  # Fetch Hugo themes (true OR recursive)
+              fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+          - name: Setup Hugo
+            uses: peaceiris/actions-hugo@v2
+            with:
+              hugo-version: 'latest'
+              extended: true
+
+          - name: Build
+            run: hugo
+
+          - name: Deploy
+            uses: peaceiris/actions-gh-pages@v3
+            if: github.ref == 'refs/heads/source'
+            with:
+              github_token: ${{ secrets.GITHUB_TOKEN }}
+              publish_dir: ./public
+
 
 [^1]: [https://github.com/features/actions](https://github.com/features/actions)
 [^2]: [https://github.com/peaceiris](https://github.com/peaceiris)
