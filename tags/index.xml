@@ -149,7 +149,40 @@ The &lt;code&gt;source&lt;/code&gt; branch contains the necessary Hugo folder co
 The &lt;code&gt;main&lt;/code&gt; branch still has the Hugo-generated HTML files for the static site.
 Additionally, there is a &lt;code&gt;gh-pages&lt;/code&gt; branch that stages any newly pushed content which is automatically pull requested to &lt;code&gt;main&lt;/code&gt;.
 The one caveat with this setup is that the &lt;code&gt;source&lt;/code&gt; branch is somewhat unrelated to the other branches which contain the content but this is a small sacrifice for the convenience that this workflow brings.
-In my source branch is the following YAML: &lt;em&gt;under construction&lt;/em&gt;&lt;/p&gt;
+In my source branch is the following YAML:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#.github/workflows/gh-pages.yml
+name: github pages
+
+on:
+  push:
+    branches:
+      - source  # Set a branch to deploy
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: &#39;latest&#39;
+          extended: true
+
+      - name: Build
+        run: hugo
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == &#39;refs/heads/source&#39;
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
