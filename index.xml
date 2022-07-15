@@ -25,7 +25,8 @@
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/brilliantclassics&#34;&gt;https://www.youtube.com/c/brilliantclassics&lt;/a&gt; Beautiful classical music&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/bach&#34;&gt;https://www.youtube.com/c/bach&lt;/a&gt; Netherland Bach Society, the oldest ongoing baroque ensemble (so much Bach!)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/rousseau&#34;&gt;https://www.youtube.com/c/rousseau&lt;/a&gt; Excellent piano playing focusing on the hands&lt;/li&gt;
-&lt;li&gt;[https://www.youtube.com](Search German in Venice) A very cool German with content on Venice Beach in Southern California as well as the Greater Los Angeles Area.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com&#34;&gt;Search German in Venice&lt;/a&gt; A very cool German with content on Venice Beach in Southern California as well as the Greater Los Angeles Area.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/TheCriticalDrinker&#34;&gt;https://www.youtube.com/c/TheCriticalDrinker&lt;/a&gt; Hilarious critiques of film and series (adult language)&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
@@ -150,7 +151,40 @@ The &lt;code&gt;source&lt;/code&gt; branch contains the necessary Hugo folder co
 The &lt;code&gt;main&lt;/code&gt; branch still has the Hugo-generated HTML files for the static site.
 Additionally, there is a &lt;code&gt;gh-pages&lt;/code&gt; branch that stages any newly pushed content which is automatically pull requested to &lt;code&gt;main&lt;/code&gt;.
 The one caveat with this setup is that the &lt;code&gt;source&lt;/code&gt; branch is somewhat unrelated to the other branches which contain the content but this is a small sacrifice for the convenience that this workflow brings.
-In my source branch is the following YAML: &lt;em&gt;under construction&lt;/em&gt;&lt;/p&gt;
+In my source branch is the following YAML:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#.github/workflows/gh-pages.yml
+name: github pages
+
+on:
+  push:
+    branches:
+      - source  # Set a branch to deploy
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: &#39;latest&#39;
+          extended: true
+
+      - name: Build
+        run: hugo
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == &#39;refs/heads/source&#39;
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -207,6 +241,7 @@ Modern websites seem to have many layers of advertisements, audio, video and spl
 &lt;li&gt;&lt;a href=&#34;https://unitprice.org/&#34;&gt;https://unitprice.org/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://minwiz.com/&#34;&gt;https://minwiz.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://trends24.live/&#34;&gt;https://trends24.live/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tomshardware.com/&#34;&gt;https://www.tomshardware.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
