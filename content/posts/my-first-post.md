@@ -1,5 +1,5 @@
 ---
-title: "The Elements of This Static Website"
+title: "This Static Website"
 date: 2022-07-13T11:51:15-05:00
 draft: false
 ---
