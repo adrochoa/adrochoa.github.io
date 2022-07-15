@@ -18,10 +18,81 @@
       <pubDate>Thu, 14 Jul 2022 21:00:19 +0000</pubDate>
       
       <guid>https://adrochoa.github.io/youtube-sites/</guid>
-      <description>&lt;p&gt;Here are some youtube websites that I enjoy:&lt;/p&gt;
+      <description>&lt;p&gt;Here are some YouTube channels that I enjoy:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://m.youtube.com/c/oddtinkering&#34;&gt;https://m.youtube.com/c/oddtinkering&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://m.youtube.com/c/TechnologyConnections/videos&#34;&gt;https://m.youtube.com/c/TechnologyConnections/videos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/OddTinkering&#34;&gt;https://www.youtube.com/c/OddTinkering&lt;/a&gt; Relaxing gadget restorations&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/TechnologyConnections&#34;&gt;https://www.youtube.com/c/TechnologyConnections&lt;/a&gt; Interesting technology discussion&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/brilliantclassics&#34;&gt;https://www.youtube.com/c/brilliantclassics&lt;/a&gt; Beautiful classical music&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/bach&#34;&gt;https://www.youtube.com/c/bach&lt;/a&gt; Netherland Bach Society, the oldest ongoing baroque ensemble (so much Bach!)&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>The Elements of This Static Website</title>
+      <link>https://adrochoa.github.io/the-elements-of-this-static-website/</link>
+      <pubDate>Wed, 13 Jul 2022 11:51:15 -0500</pubDate>
+      
+      <guid>https://adrochoa.github.io/the-elements-of-this-static-website/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Update: I have since switched to using Github Actions. See my post &lt;a href=&#34;https://adrochoa.github.io/github-actions/&#34;&gt;here&lt;/a&gt; for the details. This way can still serve many people however. What I like about using Github Actions is that it enables me to more easily update this site on the go.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This is a simple static website as a portfolio of my work and interests.
+I wanted to create a legitimate website and not only use social media (although I want to start using Twitter and Soundcloud too).&lt;/p&gt;
+&lt;p&gt;The following approach worked for me but I know it is also fairly technical.
+There are many managed approaches to creating a website that are pretty cheap and do not require technical skills.
+I stumbled upon blot.im for example. It is only a few dollars a month and reduces making a website to putting files in a folder.&lt;/p&gt;
+&lt;p&gt;For this website however, I decided to use Hugo and my Github account with Github Pages. Hugo is a simple static website generator written in the Go programming language.
+Github Pages is a way of turning your repository named username.github.io into a static website with that same URL.
+It is a fast and easy enough workflow for me and only Markdown is needed to edit posts. Additionally, this is all free.
+The skills required to do this are a proficiency with Git version control and using command-line tools in general.&lt;/p&gt;
+&lt;p&gt;For themeing, as of this writing, I am using the etch theme which I chose for its absolute simplicity.
+I really want the site to be focused on content and this theme is great at staying out of the way.&lt;/p&gt;
+&lt;p&gt;Tools Recap:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Git, Github Repositories and Github Pages (for version control and hosting)&lt;/li&gt;
+&lt;li&gt;Markdown Editor for posts (Apostrophe or VS Code for example)&lt;/li&gt;
+&lt;li&gt;Hugo to generate the website&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I did this on a GNU/Linux system installed on an old HP Stream laptop. I installed Hugo with Snap since it is the latest version.
+Git can be installed from your Linux distributions package repository in the usual way. The same or similar procedures should work with Windows or MacOS.
+But basically, with these tools one can create a user website via a repository in Github called username.github.io (which is also the website URL).
+This is then used as a submodule to your Hugo project repository (username.generator in this case). The theme is also a submodule in case it gets updated upstream.
+Using this approach keeps everything clean and version controlled: you can always roll back if your website breaks.&lt;/p&gt;
+&lt;p&gt;Here is a tree of the directory/repository structure:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;~/Public/adrochoa.generator$ tree -d -L 2
+.
+├── adrochoa.github.io
+│   ├── about
+│   ├── categories
+│   ├── css
+│   ├── my-first-post
+│   ├── posts
+│   └── tags
+├── archetypes
+├── content
+│   ├── about
+│   └── posts
+├── resources
+│   └── _gen
+└── themes
+    └── etch
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;etch, adrochoa.github.io and adrochoa.generator are separate repositories.
+Using the submodule approach, the outer repository, adrochoa.generator commits the commit hashes of the subrepositories, but not the content.
+The inner repositories, etch and adrochoa.github.io, are independent of any other repository as far as Git is concerned.
+We never directly modify adrochoa.github.io or etch: Hugo will modify adrochoa.github.io for us based on our Markdown file posts and we leave themeing to the etch folks.
+So once this is set up, we only need to edit some Markdown and run Hugo in the command-line.
+Then we just commit and push everything. Github Pages will render the update. Here are some links with more details on these tools and the nuts and bolts of this approach.&lt;/p&gt;
+&lt;ol start=&#34;0&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;https://pages.github.com/&#34;&gt;https://pages.github.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;https://gohugo.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;https://code.visualstudio.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.markdownguide.org/&#34;&gt;https://www.markdownguide.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blot.im/&#34;&gt;https://blot.im/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/LukasJoswiak/etch&#34;&gt;https://github.com/LukasJoswiak/etch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://snapcraft.io/hugo&#34;&gt;https://snapcraft.io/hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gitlab.gnome.org/World/apostrophe&#34;&gt;https://gitlab.gnome.org/World/apostrophe&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
@@ -31,11 +102,19 @@
     <item>
       <title>Github Actions</title>
       <link>https://adrochoa.github.io/github-actions/</link>
-      <pubDate>Sun, 10 Jul 2022 05:49:35 -0700</pubDate>
+      <pubDate>Wed, 13 Jul 2022 05:49:35 -0700</pubDate>
       
       <guid>https://adrochoa.github.io/github-actions/</guid>
-      <description>&lt;p&gt;This is to test github actions so that I can automate building my static github page with hugo.
-This post was edited and changes pushed with iSH on iOS.&lt;/p&gt;
+      <description>&lt;p&gt;I have recently switched workflows to utilize Github Actions.
+There are many Github Actions that can be performed on a repository.
+For this website, I am using actions from Shohei Ueda aka peaceiris. Specifically, I use &lt;code&gt;actions-gh-pages&lt;/code&gt; and &lt;code&gt;actions-hugo&lt;/code&gt; These are absolutely fantastic for my workflow since it enables me to more easily modify and post from my iPhone on the go by using iSH, which provides a GNU/Linux-like bash terminal complete with git, text editors and other command line goodies.
+The action is defined as YAML file in a branch in the git repository on which you would like to do something with. Actions can do many things including running build jobs, creating new branches and pull requesting branches. Additionally one could run tests, automating an entire continuous integration, continuous development (CI/CD) process. The action described here is relatively simple compared to what is possible though. Basically, I ditch the old setup with a single repository, username.github.io. The &lt;code&gt;source&lt;/code&gt; branch contains the necessary Hugo folder configuration described in &lt;a href=&#34;https://adrochoa.github.io/the-elements-of-this-static-website/&#34;&gt;my first post on creating this static website&lt;/a&gt;.
+The &lt;code&gt;main&lt;/code&gt; branch still has the Hugo-generated HTML files for the static site. Additionally, there is a &lt;code&gt;gh-pages&lt;/code&gt; branch that stages any newly pushed content which is automatically pull requested to &lt;code&gt;main&lt;/code&gt;. The one caveat with this setup is that the &lt;code&gt;source&lt;/code&gt; branch is somewhat unrelated to the content branches but this is a small sacrifice for the convenience that this workflow brings. In my source branch is the following YAML: &lt;em&gt;under construction&lt;/em&gt;&lt;/p&gt;
+&lt;ol start=&#34;0&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/features/actions&#34;&gt;https://github.com/features/actions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/peaceiris&#34;&gt;https://github.com/peaceiris&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ish.app/&#34;&gt;https://ish.app/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
@@ -83,72 +162,6 @@ Modern websites seem to have many layers of advertisements, audio, video and spl
     </item>
     
     
-    
-    
-    
-    <item>
-      <title>The Elements of This Static Website</title>
-      <link>https://adrochoa.github.io/the-elements-of-this-static-website/</link>
-      <pubDate>Wed, 18 May 2022 11:51:15 -0500</pubDate>
-      
-      <guid>https://adrochoa.github.io/the-elements-of-this-static-website/</guid>
-      <description>&lt;p&gt;This is a simple static website as a portfolio of my work and interests.
-I wanted to create a legitimate website and not only use social media (I want to start using Twitter and Soundcloud too).&lt;/p&gt;
-&lt;p&gt;The following approach worked for me but I know it is also fairly technical.
-There are many managed approaches to creating a website that are pretty cheap and do not require technical skills.
-I stumbled upon blot.im for example. It is only a few dollars a month and reduces making a website to putting files in a folder.&lt;/p&gt;
-&lt;p&gt;For this website however, I decided to use Hugo, a simple static website generator written in the Go programming language.
-It is fast and easy to use, requiring only Markdown to edit posts.
-There are other approaches to making a website but this seemed easy enough and free.
-The skills required to do this are a proficiency with Git version control and using command-line tools in general.&lt;/p&gt;
-&lt;p&gt;For themeing, as of this writing, I am using the etch theme which I chose for its absolute simplicity.
-I really want the site to be focused on content and this theme is great at staying out of the way.&lt;/p&gt;
-&lt;p&gt;Tools Recap:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Git, Github Pages and Github Repositories (for hosting and version control)&lt;/li&gt;
-&lt;li&gt;Text Editor for posts (Visual Studio Code renders Markdown out of the box)&lt;/li&gt;
-&lt;li&gt;Hugo to generate the website&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I did this on an Ubuntu-based GNU/Linux system installed on an old HP Stream laptop. I installed Hugo with Snap since it is the latest version.
-Git was already installed. The same or similar procedures should work with Windows or MacOS.
-But basically, with these tools you can create a user website via a repository in Github called username.github.io (which is also your website URL).
-This is then used as a submodule to your Hugo project repository (adrochoa.generator in this case). The theme is also a submodule in case it gets updated upstream.
-Using this approach keeps everything clean and version controlled: you can always roll back if your website breaks.&lt;/p&gt;
-&lt;p&gt;Here is a tree of the directory/repository structure:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;~/Public/adrochoa.generator$ tree -d -L 2
-.
-├── adrochoa.github.io
-│   ├── about
-│   ├── categories
-│   ├── css
-│   ├── my-first-post
-│   ├── posts
-│   └── tags
-├── archetypes
-├── content
-│   ├── about
-│   └── posts
-├── resources
-│   └── _gen
-└── themes
-    └── etch
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;etch, adrochoa.github.io and adrochoa.generator are separate repositories.
-Using the submodule approach, the outer repository, adrochoa.generator commits the commit hashes of the subrepositories, but not the content.
-The inner repositories, etch and adrochoa.github.io, are independent of any other repository as far as Git is concerned.
-We never directly modify adrochoa.github.io or etch: Hugo will modify adrochoa.github.io for us based on our Markdown files and we leave themeing to the etch folks.
-So once this is setup, we only need to edit some Markdown and run Hugo in the command-line.
-Then we just commit and push everything. Github Pages wil render the update. Here are some links with more details on these tools and the nuts and bolts of this approach.&lt;/p&gt;
-&lt;ol start=&#34;0&#34;&gt;
-&lt;li&gt;&lt;a href=&#34;https://pages.github.com/&#34;&gt;https://pages.github.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;https://gohugo.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;https://code.visualstudio.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.markdownguide.org/&#34;&gt;https://www.markdownguide.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://blot.im/&#34;&gt;https://blot.im/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/LukasJoswiak/etch&#34;&gt;https://github.com/LukasJoswiak/etch&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
     
     
   </channel>
