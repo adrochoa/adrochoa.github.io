@@ -29,16 +29,36 @@
         <div>
                 <time>July 13, 2022</time>
             </div>
-    </header><p>I have recently switched workflows to utilize Github Actions.
+    </header><p><em>To see an earlier method I used that relies more heavily on git and submodules, see my first post <a href="/the-elements-of-this-static-website/">here</a>.</em></p>
+<p>I have recently switched workflows to utilize Github Actions <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
 There are many Github Actions that can be performed on a repository.
-For this website, I am using actions from Shohei Ueda aka peaceiris. Specifically, I use <code>actions-gh-pages</code> and <code>actions-hugo</code> These are absolutely fantastic for my workflow since it enables me to more easily modify and post from my iPhone on the go by using iSH, which provides a GNU/Linux-like bash terminal complete with git, text editors and other command line goodies.
-The action is defined as YAML file in a branch in the git repository on which you would like to do something with. Actions can do many things including running build jobs, creating new branches and pull requesting branches. Additionally one could run tests, automating an entire continuous integration, continuous development (CI/CD) process. The action described here is relatively simple compared to what is possible though. Basically, I ditch the old setup with a single repository, username.github.io. The <code>source</code> branch contains the necessary Hugo folder configuration described in <a href="/the-elements-of-this-static-website/">my first post on creating this static website</a>.
-The <code>main</code> branch still has the Hugo-generated HTML files for the static site. Additionally, there is a <code>gh-pages</code> branch that stages any newly pushed content which is automatically pull requested to <code>main</code>. The one caveat with this setup is that the <code>source</code> branch is somewhat unrelated to the content branches but this is a small sacrifice for the convenience that this workflow brings. In my source branch is the following YAML: <em>under construction</em></p>
-<ol start="0">
-<li><a href="https://github.com/features/actions">https://github.com/features/actions</a></li>
-<li><a href="https://github.com/peaceiris">https://github.com/peaceiris</a></li>
-<li><a href="https://ish.app/">https://ish.app/</a></li>
+For this website, I am using actions from Shohei Ueda aka peaceiris <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.
+Specifically, I use <code>actions-gh-pages</code> and <code>actions-hugo</code>.
+These are absolutely fantastic for my workflow since it enables me to more easily modify and post from my iPhone on the go by using iSH <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>, which provides a GNU/Linux-like shell terminal complete with git, text editors and other command line goodies.
+The action is defined as YAML file in a branch in the git repository on which you would like to do something with.
+Actions can do many things including running build jobs, creating new branches and pull requesting branches.
+Additionally one could run tests, automating an entire continuous integration, continuous development (CI/CD) process.
+The action described here is relatively simple compared to what is possible though.
+Basically, I ditch the old setup with a single repository, <code>username.github.io</code>.
+The <code>source</code> branch contains the necessary Hugo folder configuration described in <a href="/the-elements-of-this-static-website/">my first post on creating this static website</a>.
+The <code>main</code> branch still has the Hugo-generated HTML files for the static site.
+Additionally, there is a <code>gh-pages</code> branch that stages any newly pushed content which is automatically pull requested to <code>main</code>.
+The one caveat with this setup is that the <code>source</code> branch is somewhat unrelated to the other branches which contain the content but this is a small sacrifice for the convenience that this workflow brings.
+In my source branch is the following YAML: <em>under construction</em></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://github.com/features/actions">https://github.com/features/actions</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://github.com/peaceiris">https://github.com/peaceiris</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://ish.app/">https://ish.app/</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
 </ol>
+</div>
 </article>
 
         </main><footer id="footer">
