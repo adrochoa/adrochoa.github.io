@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Youtube Sites</title>
-      <link>https://adrochoa.github.io/youtube-sites/</link>
+      <title>YouTube Channels</title>
+      <link>https://adrochoa.github.io/youtube-channels/</link>
       <pubDate>Thu, 14 Jul 2022 21:00:19 +0000</pubDate>
       
-      <guid>https://adrochoa.github.io/youtube-sites/</guid>
+      <guid>https://adrochoa.github.io/youtube-channels/</guid>
       <description>&lt;p&gt;Here are some YouTube channels that I enjoy:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/OddTinkering&#34;&gt;https://www.youtube.com/c/OddTinkering&lt;/a&gt; Relaxing gadget restorations&lt;/li&gt;
@@ -38,25 +38,25 @@
       <pubDate>Wed, 13 Jul 2022 11:51:15 -0500</pubDate>
       
       <guid>https://adrochoa.github.io/this-static-website/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Update: I have since switched to using Github Actions &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. See my post &lt;a href=&#34;https://adrochoa.github.io/github-actions/&#34;&gt;here&lt;/a&gt; for the details. This way can still serve many people however, so this post will remain. What I like about using Github Actions is that it enables me to more easily update this site on the go.&lt;/em&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;em&gt;Update: I have since switched to using Github Actions&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. See my post &lt;a href=&#34;https://adrochoa.github.io/github-actions/&#34;&gt;here&lt;/a&gt; for the details. This way can still serve many people however, so this post will remain. What I like about using Github Actions is that it enables me to more easily update this site on the go.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;This is a simple static website as a portfolio of my work and interests.
 I wanted to create a legitimate website and not only use social media (although I want to start using Twitter and Soundcloud too).&lt;/p&gt;
 &lt;p&gt;The following approach worked for me but I know it is also fairly technical.
 There are many managed approaches to creating a website that are pretty cheap and do not require technical skills.
-I stumbled upon blot.im &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; for example. It is only a few dollars a month and reduces making a website to putting files in a folder.&lt;/p&gt;
-&lt;p&gt;For this website however, I decided to use Hugo &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; and my Github account with Github Pages &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;. Hugo is a simple static website generator written in the Go programming language.
+I stumbled upon blot.im&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; for example. It is only a few dollars a month and reduces making a website to putting files in a folder.&lt;/p&gt;
+&lt;p&gt;For this website however, I decided to use Hugo&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; and my Github account with Github Pages&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;. Hugo is a simple static website generator written in the Go programming language.
 Github Pages is a way of turning your repository named &lt;code&gt;username.github.io&lt;/code&gt; into a static website with that same URL.
-It is a fast and easy enough workflow for me and only Markdown &lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; is needed to edit posts. Additionally, this is all free (meaning there is no cost).
-The skills required to do this are a proficiency with git version control &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; and using command line tools in general.&lt;/p&gt;
-&lt;p&gt;For themeing, as of this writing, I am using the etch &lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; theme which I chose for its absolute simplicity.
+It is a fast and easy enough workflow for me and only Markdown&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; is needed to edit posts. Additionally, this is all free (meaning there is no cost).
+The skills required to do this are a proficiency with git version control&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; and using command line tools in general.&lt;/p&gt;
+&lt;p&gt;For themeing, as of this writing, I am using the etch&lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; theme which I chose for its absolute simplicity.
 I really want the site to be focused on content and this theme is great at staying out of the way.&lt;/p&gt;
 &lt;p&gt;Tools Recap:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Git, Github Repositories and Github Pages (for version control and hosting)&lt;/li&gt;
-&lt;li&gt;Markdown Editor for posts (Apostrophe &lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;, Marker &lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; or VS Code &lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt; for example)&lt;/li&gt;
+&lt;li&gt;Markdown Editor for posts (Apostrophe&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;, Marker&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; or VS Code&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt; for example)&lt;/li&gt;
 &lt;li&gt;Hugo to generate the website&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;I did this on a GNU/Linux system installed on an old HP Stream laptop. I installed Hugo with Snap &lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; since it is the latest version.
+&lt;p&gt;I did this on a GNU/Linux system installed on an old HP Stream laptop. I installed Hugo with Snap&lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; since it is the latest version.
 Git can be installed from your Linux distributions package repository in the usual way. The same or similar procedures should work with Windows or MacOS.
 But basically, with these tools one can create a user website via a repository in Github called &lt;code&gt;username.github.io&lt;/code&gt; (which is also the website URL).
 This is then used as a submodule to your Hugo project repository (&lt;code&gt;username.generator&lt;/code&gt; in my case). The theme is also a submodule in case it gets updated upstream.
@@ -136,12 +136,12 @@ Then we just commit and push everything. Github Pages will render the update. He
       
       <guid>https://adrochoa.github.io/github-actions/</guid>
       <description>&lt;p&gt;&lt;em&gt;To see an earlier method I used that relies more heavily on git and submodules, see my first post &lt;a href=&#34;https://adrochoa.github.io/the-elements-of-this-static-website/&#34;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;I have recently switched workflows to utilize Github Actions &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.
+&lt;p&gt;I have recently switched workflows to utilize Github Actions&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.
 There are many Github Actions that can be performed on a repository.
-For this website, I am using actions from Shohei Ueda aka peaceiris &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.
+For this website, I am using actions from Shohei Ueda aka peaceiris&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.
 Specifically, I use &lt;code&gt;actions-gh-pages&lt;/code&gt; and &lt;code&gt;actions-hugo&lt;/code&gt;.
-These are absolutely fantastic for my workflow since it enables me to more easily modify and post from my iPhone on the go by using iSH &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;, which provides a GNU/Linux-like shell terminal complete with git, text editors and other command line goodies.
-The action is defined as YAML file in a branch in the git repository on which you would like to do something with.
+These are absolutely fantastic for my workflow since it enables me to more easily modify and post from my iPhone on the go by using iSH&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;, which provides a GNU/Linux-like shell terminal complete with git, text editors and other command line goodies.
+The action is defined in a YAML file in a branch in the git repository on which you would like to do something with.
 Actions can do many things including running build jobs, creating new branches and pull requesting branches.
 Additionally one could run tests, automating an entire continuous integration, continuous development (CI/CD) process.
 The action described here is relatively simple compared to what is possible though.
