@@ -5,12 +5,12 @@ draft: false
 ---
 *To see an earlier method I used that relies more heavily on git and submodules, see my first post [here](/the-elements-of-this-static-website/).*
 
-I have recently switched workflows to utilize Github Actions [^1].
+I have recently switched workflows to utilize Github Actions[^1].
 There are many Github Actions that can be performed on a repository.
-For this website, I am using actions from Shohei Ueda aka peaceiris [^2].
+For this website, I am using actions from Shohei Ueda aka peaceiris[^2].
 Specifically, I use ``actions-gh-pages`` and ``actions-hugo``.
-These are absolutely fantastic for my workflow since it enables me to more easily modify and post from my iPhone on the go by using iSH [^3], which provides a GNU/Linux-like shell terminal complete with git, text editors and other command line goodies.
-The action is defined as YAML file in a branch in the git repository on which you would like to do something with.
+These are absolutely fantastic for my workflow since it enables me to more easily modify and post from my iPhone on the go by using iSH[^3], which provides a GNU/Linux-like shell terminal complete with git, text editors and other command line goodies.
+The action is defined in a YAML file in a branch in the git repository on which you would like to do something with.
 Actions can do many things including running build jobs, creating new branches and pull requesting branches.
 Additionally one could run tests, automating an entire continuous integration, continuous development (CI/CD) process.
 The action described here is relatively simple compared to what is possible though.

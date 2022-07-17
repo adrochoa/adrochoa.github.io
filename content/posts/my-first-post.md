@@ -3,30 +3,30 @@ title: "This Static Website"
 date: 2022-07-13T11:51:15-05:00
 draft: false
 ---
-*Update: I have since switched to using Github Actions [^1]. See my post [here](/github-actions/) for the details. This way can still serve many people however, so this post will remain. What I like about using Github Actions is that it enables me to more easily update this site on the go.*
+*Update: I have since switched to using Github Actions[^1]. See my post [here](/github-actions/) for the details. This way can still serve many people however, so this post will remain. What I like about using Github Actions is that it enables me to more easily update this site on the go.*
 
 This is a simple static website as a portfolio of my work and interests.
 I wanted to create a legitimate website and not only use social media (although I want to start using Twitter and Soundcloud too).
 
 The following approach worked for me but I know it is also fairly technical.
 There are many managed approaches to creating a website that are pretty cheap and do not require technical skills.
-I stumbled upon blot.im [^2] for example. It is only a few dollars a month and reduces making a website to putting files in a folder.
+I stumbled upon blot.im[^2] for example. It is only a few dollars a month and reduces making a website to putting files in a folder.
 
-For this website however, I decided to use Hugo [^3] and my Github account with Github Pages [^4]. Hugo is a simple static website generator written in the Go programming language.
+For this website however, I decided to use Hugo[^3] and my Github account with Github Pages[^4]. Hugo is a simple static website generator written in the Go programming language.
 Github Pages is a way of turning your repository named ``username.github.io`` into a static website with that same URL.
-It is a fast and easy enough workflow for me and only Markdown [^5] is needed to edit posts. Additionally, this is all free (meaning there is no cost).
-The skills required to do this are a proficiency with git version control [^6] and using command line tools in general.
+It is a fast and easy enough workflow for me and only Markdown[^5] is needed to edit posts. Additionally, this is all free (meaning there is no cost).
+The skills required to do this are a proficiency with git version control[^6] and using command line tools in general.
 
-For themeing, as of this writing, I am using the etch [^7] theme which I chose for its absolute simplicity.
+For themeing, as of this writing, I am using the etch[^7] theme which I chose for its absolute simplicity.
 I really want the site to be focused on content and this theme is great at staying out of the way.
 
 Tools Recap:
 
 * Git, Github Repositories and Github Pages (for version control and hosting)
-* Markdown Editor for posts (Apostrophe [^8], Marker [^9] or VS Code [^10] for example)
+* Markdown Editor for posts (Apostrophe[^8], Marker[^9] or VS Code[^10] for example)
 * Hugo to generate the website
 
-I did this on a GNU/Linux system installed on an old HP Stream laptop. I installed Hugo with Snap [^11] since it is the latest version.
+I did this on a GNU/Linux system installed on an old HP Stream laptop. I installed Hugo with Snap[^11] since it is the latest version.
 Git can be installed from your Linux distributions package repository in the usual way. The same or similar procedures should work with Windows or MacOS.
 But basically, with these tools one can create a user website via a repository in Github called ``username.github.io`` (which is also the website URL).
 This is then used as a submodule to your Hugo project repository (``username.generator`` in my case). The theme is also a submodule in case it gets updated upstream.
