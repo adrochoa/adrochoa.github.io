@@ -3,7 +3,7 @@ title: "Github Actions"
 date: 2022-07-13T05:49:35-07:00
 draft: false
 ---
-*To see an earlier method I used that relies more heavily on git and submodules, see my first post [here](/the-elements-of-this-static-website/).*
+*To see an earlier method I used that relies more heavily on git and submodules, see my first post [here](/this-static-website/).*
 
 I have recently switched workflows to utilize Github Actions[^1].
 There are many Github Actions that can be performed on a repository.
@@ -15,7 +15,7 @@ Actions can do many things including running build jobs, creating new branches a
 Additionally one could run tests, automating an entire continuous integration, continuous development (CI/CD) process.
 The action described here is relatively simple compared to what is possible though.
 Basically, I ditch the old setup with a single repository, ``username.github.io``.
-The ``source`` branch contains the necessary Hugo folder configuration described in [my first post on creating this static website](/the-elements-of-this-static-website/).
+The ``source`` branch contains the necessary Hugo folder configuration described in [my first post on creating this static website](/this-static-website/).
 The ``main`` branch still has the Hugo-generated HTML files for the static site.
 Additionally, there is a ``gh-pages`` branch that stages any newly pushed content.
 I can then open a pull request from ``gh-pages`` to ``main``, review the update and finally merge and my site is rendered live in about a minute.
