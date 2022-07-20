@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - source  # Set a branch to deploy
-#  pull_request:
 
 jobs:
   deploy:
@@ -30,14 +29,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-
-#  pull-request:
-#    runs-on: ubuntu-latest
-#    steps:
-#      - uses: actions/checkout@v2
-#      - name: pull-request
-#        uses: repo-sync/pull-request@v2
-#        with:
-#          source_branch: "gh-pages"
-#          destination_branch: "main"
-#          github_token: ${{ secrets.GITHUB_TOKEN }}

@@ -11,14 +11,15 @@ For this website, I am using actions from Shohei Ueda aka peaceiris[^2].
 Specifically, I use ``actions-gh-pages`` and ``actions-hugo``.
 These are absolutely fantastic for my workflow since it enables me to more easily modify and post from my iPhone on the go by using iSH[^3], which provides a GNU/Linux-like shell terminal complete with git, text editors and other command line goodies.
 The action is defined in a YAML file in a branch in the git repository on which you would like to do something with.
-Actions can do many things including running build jobs, creating new branches and pull requesting branches.
+Actions can do many things including running build jobs, creating new branches and opening pull requests.
 Additionally one could run tests, automating an entire continuous integration, continuous development (CI/CD) process.
 The action described here is relatively simple compared to what is possible though.
 Basically, I ditch the old setup with a single repository, ``username.github.io``.
 The ``source`` branch contains the necessary Hugo folder configuration described in [my first post on creating this static website](/the-elements-of-this-static-website/).
 The ``main`` branch still has the Hugo-generated HTML files for the static site.
-Additionally, there is a ``gh-pages`` branch that stages any newly pushed content which is automatically pull requested to ``main``.
-The one caveat with this setup is that the ``source`` branch is somewhat unrelated to the other branches which contain the content but this is a small sacrifice for the convenience that this workflow brings.
+Additionally, there is a ``gh-pages`` branch that stages any newly pushed content.
+I can then open a pull request from ``gh-pages`` to ``main``, review the update and finally merge and my site is rendered live in about a minute.
+The one caveat with this setup is that the ``source`` branch is somewhat unrelated to the other branches which contain site content but this is a small sacrifice for the convenience that this workflow brings.
 In my source branch is the following YAML:
 
     #.github/workflows/gh-pages.yml
