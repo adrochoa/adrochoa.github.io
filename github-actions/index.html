@@ -29,7 +29,7 @@
         <div>
                 <time>July 13, 2022</time>
             </div>
-    </header><p><em>To see an earlier method I used that relies more heavily on git and submodules, see my first post <a href="/the-elements-of-this-static-website/">here</a>.</em></p>
+    </header><p><em>To see an earlier method I used that relies more heavily on git and submodules, see my first post <a href="/this-static-website/">here</a>.</em></p>
 <p>I have recently switched workflows to utilize Github Actions<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.
 There are many Github Actions that can be performed on a repository.
 For this website, I am using actions from Shohei Ueda aka peaceiris<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.
@@ -40,7 +40,7 @@ Actions can do many things including running build jobs, creating new branches a
 Additionally one could run tests, automating an entire continuous integration, continuous development (CI/CD) process.
 The action described here is relatively simple compared to what is possible though.
 Basically, I ditch the old setup with a single repository, <code>username.github.io</code>.
-The <code>source</code> branch contains the necessary Hugo folder configuration described in <a href="/the-elements-of-this-static-website/">my first post on creating this static website</a>.
+The <code>source</code> branch contains the necessary Hugo folder configuration described in <a href="/this-static-website/">my first post on creating this static website</a>.
 The <code>main</code> branch still has the Hugo-generated HTML files for the static site.
 Additionally, there is a <code>gh-pages</code> branch that stages any newly pushed content.
 I can then open a pull request from <code>gh-pages</code> to <code>main</code>, review the update and finally merge and my site is rendered live in about a minute.
