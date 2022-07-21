@@ -20,7 +20,7 @@ The ``main`` branch still has the Hugo-generated HTML files for the static site.
 Additionally, there is a ``gh-pages`` branch that stages any newly pushed content.
 I can then open a pull request from ``gh-pages`` to ``main``, review the update and finally merge and my site is rendered live in about a minute.
 The one caveat with this setup is that the ``source`` branch is somewhat unrelated to the other branches which contain site content but this is a small sacrifice for the convenience that this workflow brings.
-In my source branch is the following YAML:
+In my ``source`` branch is the following YAML:
 
     #.github/workflows/gh-pages.yml
     name: github pages

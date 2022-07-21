@@ -12,6 +12,7 @@ publishdir = "public"
   copyright = "©2022"
   dark = "on"
   highlight = true
+  GitHubUser: adrochoa
 
 [menu]
   [[menu.main]]
