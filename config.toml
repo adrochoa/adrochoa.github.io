@@ -13,12 +13,12 @@ publishdir = "public"
   dark = "on"
   highlight = true
 
-[Params.social.share]
-  facebook = true
-  linkedin = true
-  twitter = true
-  whatsapp = true
-  email = true
+#[Params.social.share]
+#  facebook = true
+#  linkedin = true
+#  twitter = true
+#  whatsapp = true
+#  email = true
 
 [menu]
   [[menu.main]]
