@@ -2,6 +2,7 @@
 title: "About"
 date: 2022-05-18T11:57:05-05:00
 draft: false
+socialshare: true
 ---
 I work in the technology sector doing so-called knowledge work.
 My interests include math, computer science and technology in general.
