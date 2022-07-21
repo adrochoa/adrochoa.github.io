@@ -8,7 +8,7 @@ My interests include math, computer science and technology in general.
 I also enjoy playing and listening to classical music.
 This is a space for me to share and document interests and projects.
 
-* {{% fontawesome "twitter" %}}&nbsp;[Twitter](https://twitter.com/adrochoa)
-* {{% fontawesome "soundcloud" %}}&nbsp;[SoundCloud](https://soundcloud.com/)
-* {{% fontawesome "youtube" %}}&nbsp;[YouTube](https://youtube.com)
-* {{% fontawesome "github-alt" %}}&nbsp;[GitHub](https://github.com/adrochoa)
+- {{% fontawesome "twitter" %}}[Twitter](https://twitter.com/adrochoa)
+- {{% fontawesome "soundcloud" %}}[SoundCloud](https://soundcloud.com/)
+- {{% fontawesome "youtube" %}}[YouTube](https://youtube.com)
+- {{% fontawesome "github-alt" %}}[GitHub](https://github.com/adrochoa)
