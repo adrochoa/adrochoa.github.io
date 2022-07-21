@@ -8,7 +8,7 @@ My interests include math, computer science and technology in general.
 I also enjoy playing and listening to classical music.
 This is a space for me to share and document interests and projects.
 
-* {{< svg "twitter.svg" >}}
-* {{< svg "soundcloud.svg" >}}
-* {{< svg "linkedin.svg" >}}
-* {{< svg "github-alt.svg" >}}
+* {{% fontawesome "twitter" %}}
+* {{% fontawesome "soundcloud" %}}
+* {{% fontawesome "linkedin" %}}
+* {{% fontawesome "github-alt" %}}
