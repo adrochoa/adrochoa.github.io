@@ -157,7 +157,7 @@ The &lt;code&gt;main&lt;/code&gt; branch still has the Hugo-generated HTML files
 Additionally, there is a &lt;code&gt;gh-pages&lt;/code&gt; branch that stages any newly pushed content.
 I can then open a pull request from &lt;code&gt;gh-pages&lt;/code&gt; to &lt;code&gt;main&lt;/code&gt;, review the update and finally merge and my site is rendered live in about a minute.
 The one caveat with this setup is that the &lt;code&gt;source&lt;/code&gt; branch is somewhat unrelated to the other branches which contain site content but this is a small sacrifice for the convenience that this workflow brings.
-In my source branch is the following YAML:&lt;/p&gt;
+In my &lt;code&gt;source&lt;/code&gt; branch is the following YAML:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;#.github/workflows/gh-pages.yml
 name: github pages
 
