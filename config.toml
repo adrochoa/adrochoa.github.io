@@ -9,7 +9,7 @@ publishdir = "public"
 
 [params]
   description = "an esoteric corner of the web"
-  copyright = "©2022 {{% fontawesome "github-alt" %}} {{% fontawesome "twitter" %}}"
+  copyright = "©2022"
   dark = "on"
   highlight = true
 
