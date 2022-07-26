@@ -17,3 +17,6 @@ Here are some YouTube channels that I enjoy:
 10. [Search Omni Foundation](https://www.youtube.com) Another channel showcasing the classical guitar
 11. [https://www.youtube.com/user/TeeHarb](https://www.youtube.com/user/TeeHarb) Tariq Harb, an inspiration for his quick mastery of the classical guitar
 12. [https://www.youtube.com/c/RobMacKillop1](https://www.youtube.com/c/RobMacKillop1) A multi-instrumentalist in the world of plucked strings
+13. [https://www.youtube.com/c/TheLinuxExperiment](https://www.youtube.com/c/TheLinuxExperiment)
+14. [https://www.youtube.com/c/TheLinuxCast](https://www.youtube.com/c/TheLinuxCast)
+15. [https://www.youtube.com/c/DistroTube](https://www.youtube.com/c/DistroTube)
