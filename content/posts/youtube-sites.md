@@ -20,3 +20,4 @@ Here are some YouTube channels that I enjoy:
 13. [https://www.youtube.com/c/TheLinuxExperiment](https://www.youtube.com/c/TheLinuxExperiment)
 14. [https://www.youtube.com/c/TheLinuxCast](https://www.youtube.com/c/TheLinuxCast)
 15. [https://www.youtube.com/c/DistroTube](https://www.youtube.com/c/DistroTube)
+16. [https://www.youtube.com/user/Nordlyz19](https://www.youtube.com/user/Nordlyz19) John Moraitis and his musical projects on the harpsichord
