@@ -1,5 +1,5 @@
 ---
-title: "Github Actions"
+title: "GitHub Actions"
 date: 2022-07-13T05:49:35-07:00
 draft: false
 ---
