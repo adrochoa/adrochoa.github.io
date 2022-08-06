@@ -22,4 +22,6 @@ Here are some YouTube channels that I enjoy:
 15. [https://www.youtube.com/c/DistroTube](https://www.youtube.com/c/DistroTube) Linux tips and news from Derek Taylor (DT)
 16. [https://www.youtube.com/user/Nordlyz19](https://www.youtube.com/user/Nordlyz19) John Moraitis and his musical projects on the harpsichord
 17. [https://www.youtube.com/c/TechHutHD](https://www.youtube.com/c/TechHutHD) Non-technical GNU/Linux content
-17. [https://www.youtube.com/c/HALIDONMUSIC](https://www.youtube.com/c/HALIDONMUSIC) More great classical music
+18. [https://www.youtube.com/c/HALIDONMUSIC](https://www.youtube.com/c/HALIDONMUSIC) More great classical music
+19. [https://www.youtube.com/c/SwitchandClickOfficial](https://www.youtube.com/c/SwitchandClickOfficial) Mechanical keyboard fun
+20. [https://www.youtube.com/c/onlyinjapango](https://www.youtube.com/c/onlyinjapango) Japanese culture and travel
