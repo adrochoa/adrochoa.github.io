@@ -12,6 +12,33 @@
     
     
     <item>
+      <title>Excel Formulae</title>
+      <link>https://adrochoa.github.io/excel-formulae/</link>
+      <pubDate>Sat, 06 Aug 2022 19:27:00 -0700</pubDate>
+      
+      <guid>https://adrochoa.github.io/excel-formulae/</guid>
+      <description>&lt;p&gt;Here I will keep a list of useful formulae in Microsoft Excel.
+These will probably also work in other spreadsheet software.&lt;/p&gt;
+&lt;h2 id=&#34;lookup-all-values-with-corresponding-key-spill&#34;&gt;Lookup all values with corresponding key (spill)&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;=FILTER($$key_range,key=$$value_range)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;lookup-right-to-left&#34;&gt;Lookup right to left&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;=INDEX($$total_range,MATCH(key,$$key_range,FALSE),1)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;two-way-lookup&#34;&gt;Two way lookup&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;=INDEX($$value_only_range,MATCH(row_key,$$row_range,FALSE),MATCH(column_key,$$column_range,FALSE))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;get-every-nth-column-negative-n-goes-backward&#34;&gt;Get every &lt;em&gt;n&lt;/em&gt;th column (negative &lt;em&gt;n&lt;/em&gt; goes backward)&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;=OFFSET($first_cell,0,n*(COLUMN()-COLUMN($first_lookup_cell)))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;get-every-nth-row-negative-n-goes-backward&#34;&gt;Get every &lt;em&gt;n&lt;/em&gt;th row (negative &lt;em&gt;n&lt;/em&gt; goes backward)&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;=OFFSET($first_cell,n*(ROW()-ROW($first_lookup_cell)),0)&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
       <title>YouTube Channels</title>
       <link>https://adrochoa.github.io/youtube-channels/</link>
       <pubDate>Thu, 14 Jul 2022 21:00:19 +0000</pubDate>
@@ -37,6 +64,8 @@
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/user/Nordlyz19&#34;&gt;https://www.youtube.com/user/Nordlyz19&lt;/a&gt; John Moraitis and his musical projects on the harpsichord&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/TechHutHD&#34;&gt;https://www.youtube.com/c/TechHutHD&lt;/a&gt; Non-technical GNU/Linux content&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/HALIDONMUSIC&#34;&gt;https://www.youtube.com/c/HALIDONMUSIC&lt;/a&gt; More great classical music&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/SwitchandClickOfficial&#34;&gt;https://www.youtube.com/c/SwitchandClickOfficial&lt;/a&gt; Mechanical keyboard fun&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/c/onlyinjapango&#34;&gt;https://www.youtube.com/c/onlyinjapango&lt;/a&gt; Japanese culture and travel&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
@@ -141,7 +170,7 @@ Then we just commit and push everything. Github Pages will render the update. He
     
     
     <item>
-      <title>Github Actions</title>
+      <title>GitHub Actions</title>
       <link>https://adrochoa.github.io/github-actions/</link>
       <pubDate>Wed, 13 Jul 2022 05:49:35 -0700</pubDate>
       
