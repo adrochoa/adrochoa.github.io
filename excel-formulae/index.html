@@ -31,20 +31,23 @@
             </div>
     </header><p>Here I will keep a list of useful formulae in Microsoft Excel.
 These will probably also work in other spreadsheet software such as Gnumeric or LibreOffice Calc.</p>
-<h2 id="lookup-all-values-with-corresponding-key-spill">Lookup all values with corresponding key (spill)</h2>
+<h3 id="lookup-all-values-with-corresponding-key-spill">Lookup all values with corresponding key (spill)</h3>
 <pre><code>=FILTER($$key_range,key=$$value_range)
 </code></pre>
-<h2 id="lookup-right-to-left">Lookup right to left</h2>
+<h3 id="lookup-right-to-left">Lookup right to left</h3>
 <pre><code>=INDEX($$total_range,MATCH(key,$$key_range,FALSE),1)
 </code></pre>
-<h2 id="two-way-lookup">Two way lookup</h2>
+<h3 id="two-way-lookup">Two way lookup</h3>
 <pre><code>=INDEX($$value_only_range,MATCH(row_key,$$row_range,FALSE),MATCH(column_key,$$column_range,FALSE))
 </code></pre>
-<h2 id="get-every-nth-column-negative-n-goes-backward">Get every <em>n</em>th column (negative <em>n</em> goes backward)</h2>
+<h3 id="get-every-nth-column-negative-n-goes-backward">Get every <em>n</em>th column (negative <em>n</em> goes backward)</h3>
 <pre><code>=OFFSET($first_cell,0,n*(COLUMN()-COLUMN($first_lookup_cell)))
 </code></pre>
-<h2 id="get-every-nth-row-negative-n-goes-backward">Get every <em>n</em>th row (negative <em>n</em> goes backward)</h2>
+<h3 id="get-every-nth-row-negative-n-goes-backward">Get every <em>n</em>th row (negative <em>n</em> goes backward)</h3>
 <pre><code>=OFFSET($first_cell,n*(ROW()-ROW($first_lookup_cell)),0)
+</code></pre>
+<h3 id="check-whether-cell-contains-character">Check whether cell contains character</h3>
+<pre><code>=ISNUMBER(SEARCH(char, cell))
 </code></pre>
 <ol>
 <li><a href="http://www.gnumeric.org/">http://www.gnumeric.org/</a></li>

@@ -41,20 +41,23 @@ Having a text editor alone is useful as iOS 15.6 does not have a way to easily e
       <guid>https://adrochoa.github.io/excel-formulae/</guid>
       <description>&lt;p&gt;Here I will keep a list of useful formulae in Microsoft Excel.
 These will probably also work in other spreadsheet software such as Gnumeric or LibreOffice Calc.&lt;/p&gt;
-&lt;h2 id=&#34;lookup-all-values-with-corresponding-key-spill&#34;&gt;Lookup all values with corresponding key (spill)&lt;/h2&gt;
+&lt;h3 id=&#34;lookup-all-values-with-corresponding-key-spill&#34;&gt;Lookup all values with corresponding key (spill)&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;=FILTER($$key_range,key=$$value_range)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;lookup-right-to-left&#34;&gt;Lookup right to left&lt;/h2&gt;
+&lt;h3 id=&#34;lookup-right-to-left&#34;&gt;Lookup right to left&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;=INDEX($$total_range,MATCH(key,$$key_range,FALSE),1)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;two-way-lookup&#34;&gt;Two way lookup&lt;/h2&gt;
+&lt;h3 id=&#34;two-way-lookup&#34;&gt;Two way lookup&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;=INDEX($$value_only_range,MATCH(row_key,$$row_range,FALSE),MATCH(column_key,$$column_range,FALSE))
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;get-every-nth-column-negative-n-goes-backward&#34;&gt;Get every &lt;em&gt;n&lt;/em&gt;th column (negative &lt;em&gt;n&lt;/em&gt; goes backward)&lt;/h2&gt;
+&lt;h3 id=&#34;get-every-nth-column-negative-n-goes-backward&#34;&gt;Get every &lt;em&gt;n&lt;/em&gt;th column (negative &lt;em&gt;n&lt;/em&gt; goes backward)&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;=OFFSET($first_cell,0,n*(COLUMN()-COLUMN($first_lookup_cell)))
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;get-every-nth-row-negative-n-goes-backward&#34;&gt;Get every &lt;em&gt;n&lt;/em&gt;th row (negative &lt;em&gt;n&lt;/em&gt; goes backward)&lt;/h2&gt;
+&lt;h3 id=&#34;get-every-nth-row-negative-n-goes-backward&#34;&gt;Get every &lt;em&gt;n&lt;/em&gt;th row (negative &lt;em&gt;n&lt;/em&gt; goes backward)&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;=OFFSET($first_cell,n*(ROW()-ROW($first_lookup_cell)),0)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;check-whether-cell-contains-character&#34;&gt;Check whether cell contains character&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;=ISNUMBER(SEARCH(char, cell))
 &lt;/code&gt;&lt;/pre&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.gnumeric.org/&#34;&gt;http://www.gnumeric.org/&lt;/a&gt;&lt;/li&gt;
