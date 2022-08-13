@@ -25,3 +25,4 @@ Here are some YouTube channels that I enjoy:
 18. [https://www.youtube.com/c/HALIDONMUSIC](https://www.youtube.com/c/HALIDONMUSIC) More great classical music
 19. [https://www.youtube.com/c/SwitchandClickOfficial](https://www.youtube.com/c/SwitchandClickOfficial) Mechanical keyboard fun
 20. [https://www.youtube.com/c/onlyinjapango](https://www.youtube.com/c/onlyinjapango) Japanese culture and travel
+21. [https://www.youtube.com/c/LinuxTex](https://www.youtube.com/c/LinuxTex) Linux distribution showcase
