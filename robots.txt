@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: file:////home/adrian/Documents/Publii/sites/blog/preview/sitemap.xml

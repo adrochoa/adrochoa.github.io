@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Blog</title>
+    <link href="file:////home/adrian/Documents/Publii/sites/blog/preview/feed.xml" rel="self" />
+    <link href="file:////home/adrian/Documents/Publii/sites/blog/preview" />
+    <updated>2024-03-23T21:34:11-05:00</updated>
+    <author>
+        <name>Adrian Ochoa</name>
+    </author>
+    <id>file:////home/adrian/Documents/Publii/sites/blog/preview</id>
+
+    <entry>
+        <title>Deep Work</title>
+        <author>
+            <name>Adrian Ochoa</name>
+        </author>
+        <link href="file:////home/adrian/Documents/Publii/sites/blog/preview/deep-work.html"/>
+        <id>file:////home/adrian/Documents/Publii/sites/blog/preview/deep-work.html</id>
+
+        <updated>2024-03-23T21:34:11-05:00</updated>
+            <summary>
+                <![CDATA[
+                    This is super important while (alive): work() But this is not quite right. We must also work deeply while we are alive to lead to a satisfying life. We want depth in all areas.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    This is super important
+  </p>
+<pre class="line-numbers  language-python"><code>while (alive):
+    work()
+</code></pre>
+
+  <p>
+    But this is not quite right. We must also work deeply while we are alive to lead to a satisfying life. We want depth in all areas.
+  </p>
+            ]]>
+        </content>
+    </entry>
+</feed>
