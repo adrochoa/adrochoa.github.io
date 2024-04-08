@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="file:////home/adrian/Documents/Publii/sites/blog/preview/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>file:////home/adrian/Documents/Publii/sites/blog/preview/</loc>
+<loc>file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/</loc>
 </url>
 <url>
-<loc>file:////home/adrian/Documents/Publii/sites/blog/preview/deep-work.html</loc>
-<lastmod>2024-03-23T21:34:11-05:00</lastmod>
+<loc>file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/publii-gui-for-websites.html</loc>
+<lastmod>2024-04-07T18:47:58-05:00</lastmod>
 </url>
 </urlset>
