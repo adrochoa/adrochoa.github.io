@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Math, Music, Misc.</title>
-    <link href="file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/feed.xml" rel="self" />
-    <link href="file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview" />
+    <link href="https://adrochoa.github.io/feed.xml" rel="self" />
+    <link href="https://adrochoa.github.io" />
     <updated>2024-06-22T22:53:46-05:00</updated>
     <author>
         <name>Adrian Ochoa</name>
     </author>
-    <id>file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview</id>
+    <id>https://adrochoa.github.io</id>
 
     <entry>
         <title>About</title>
         <author>
             <name>Adrian Ochoa</name>
         </author>
-        <link href="file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/about.html"/>
-        <id>file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/about.html</id>
+        <link href="https://adrochoa.github.io/about.html"/>
+        <id>https://adrochoa.github.io/about.html</id>
 
         <updated>2024-06-22T22:53:46-05:00</updated>
             <summary>
@@ -65,8 +65,8 @@ Playing anything besides keys and plucked strings is rare these days.</p><p>{{&l
         <author>
             <name>Adrian Ochoa</name>
         </author>
-        <link href="file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/my-old-first-post.html"/>
-        <id>file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/my-old-first-post.html</id>
+        <link href="https://adrochoa.github.io/my-old-first-post.html"/>
+        <id>https://adrochoa.github.io/my-old-first-post.html</id>
 
         <updated>2024-06-22T22:52:52-05:00</updated>
             <summary>
@@ -124,8 +124,8 @@ Then we just commit and push everything. Github Pages will render the update. He
         <author>
             <name>Adrian Ochoa</name>
         </author>
-        <link href="file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/mechanical-keyboards.html"/>
-        <id>file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/mechanical-keyboards.html</id>
+        <link href="https://adrochoa.github.io/mechanical-keyboards.html"/>
+        <id>https://adrochoa.github.io/mechanical-keyboards.html</id>
 
         <updated>2024-06-22T22:52:26-05:00</updated>
             <summary>
@@ -168,8 +168,8 @@ These are nice keyboards for dipping your toes into the mechanical keyboard worl
         <author>
             <name>Adrian Ochoa</name>
         </author>
-        <link href="file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/ish-app.html"/>
-        <id>file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/ish-app.html</id>
+        <link href="https://adrochoa.github.io/ish-app.html"/>
+        <id>https://adrochoa.github.io/ish-app.html</id>
 
         <updated>2024-06-22T22:51:49-05:00</updated>
             <summary>
@@ -198,8 +198,8 @@ Having a text editor alone is useful as iOS 15.6 does not have a way to easily e
         <author>
             <name>Adrian Ochoa</name>
         </author>
-        <link href="file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/excel-formulae.html"/>
-        <id>file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/excel-formulae.html</id>
+        <link href="https://adrochoa.github.io/excel-formulae.html"/>
+        <id>https://adrochoa.github.io/excel-formulae.html</id>
 
         <updated>2024-06-22T22:51:22-05:00</updated>
             <summary>
@@ -241,8 +241,8 @@ These will probably also work in other spreadsheet software such as Gnumeric or 
         <author>
             <name>Adrian Ochoa</name>
         </author>
-        <link href="file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/simple-websites.html"/>
-        <id>file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/simple-websites.html</id>
+        <link href="https://adrochoa.github.io/simple-websites.html"/>
+        <id>https://adrochoa.github.io/simple-websites.html</id>
 
         <updated>2024-06-22T22:50:47-05:00</updated>
             <summary>
@@ -293,8 +293,8 @@ Modern websites seem to have many layers of advertisements, audio, video and spl
         <author>
             <name>Adrian Ochoa</name>
         </author>
-        <link href="file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/youtube-channels.html"/>
-        <id>file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/youtube-channels.html</id>
+        <link href="https://adrochoa.github.io/youtube-channels.html"/>
+        <id>https://adrochoa.github.io/youtube-channels.html</id>
 
         <updated>2024-06-22T22:49:48-05:00</updated>
             <summary>
@@ -336,8 +336,8 @@ Modern websites seem to have many layers of advertisements, audio, video and spl
         <author>
             <name>Adrian Ochoa</name>
         </author>
-        <link href="file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/publii-gui-for-websites.html"/>
-        <id>file:////Users/adrian/Documents/Publii/sites/math-music-misc/preview/publii-gui-for-websites.html</id>
+        <link href="https://adrochoa.github.io/publii-gui-for-websites.html"/>
+        <id>https://adrochoa.github.io/publii-gui-for-websites.html</id>
 
         <updated>2024-04-07T18:47:58-05:00</updated>
             <summary>
