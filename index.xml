@@ -10,17 +10,24 @@
     <atom:link href="https://adrochoa.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://adrochoa.github.io/about/about/</link>
-      <pubDate>Sun, 23 Jun 2024 10:38:59 -0500</pubDate>
-      <guid>https://adrochoa.github.io/about/about/</guid>
-      <description>I work in the technology sector making mathematical solutions for mobile games of chance. My interests include science, technology, math and music. I enjoy playing and listening to mostly classical music. This is a website for me to share and document interests and projects.&#xA;Tech keyboard: HyperX Alloy Origin 65 keyboard mouse: Logitech Ergo M575 server: Debian 11 Bullseye GNOME (old Asus laptop for serving files, media, etc.) main: Arch Linux (btw) XFCE (old HP Stream laptop as my main computer) backup: Debian 11 Bullseye LXQT (old 32-bit Toshiba Sattelite laptop for backup) tv: Ubuntu 22.</description>
-    </item>
-    <item>
-      <title>About</title>
       <link>https://adrochoa.github.io/posts/about/</link>
       <pubDate>Sun, 23 Jun 2024 10:38:59 -0500</pubDate>
       <guid>https://adrochoa.github.io/posts/about/</guid>
       <description>I work in the technology sector making mathematical solutions for mobile games of chance. My interests include science, technology, math and music. I enjoy playing and listening to mostly classical music. This is a website for me to share and document interests and projects.&#xA;Tech keyboard: HyperX Alloy Origin 65 keyboard mouse: Logitech Ergo M575 server: Debian 11 Bullseye GNOME (old Asus laptop for serving files, media, etc.) main: Arch Linux (btw) XFCE (old HP Stream laptop as my main computer) backup: Debian 11 Bullseye LXQT (old 32-bit Toshiba Sattelite laptop for backup) tv: Ubuntu 22.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://adrochoa.github.io/about/</link>
+      <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://adrochoa.github.io/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&#xA;Hugo, git and GitHub Pages are the tools I use to make this site.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://adrochoa.github.io/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://adrochoa.github.io/archives/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
