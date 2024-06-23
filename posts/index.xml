@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Archania</title>
+    <link>https://adrochoa.github.io/posts/</link>
+    <description>Recent content in Posts on Archania</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Jun 2024 10:38:59 -0500</lastBuildDate>
+    <atom:link href="https://adrochoa.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://adrochoa.github.io/posts/about/</link>
+      <pubDate>Sun, 23 Jun 2024 10:38:59 -0500</pubDate>
+      <guid>https://adrochoa.github.io/posts/about/</guid>
+      <description>I work in the technology sector making mathematical solutions for mobile games of chance. My interests include science, technology, math and music. I enjoy playing and listening to mostly classical music. This is a website for me to share and document interests and projects.&#xA;Tech keyboard: HyperX Alloy Origin 65 keyboard mouse: Logitech Ergo M575 server: Debian 11 Bullseye GNOME (old Asus laptop for serving files, media, etc.) main: Arch Linux (btw) XFCE (old HP Stream laptop as my main computer) backup: Debian 11 Bullseye LXQT (old 32-bit Toshiba Sattelite laptop for backup) tv: Ubuntu 22.</description>
+    </item>
+  </channel>
+</rss>
