@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Archania</title>
-    <link>https://adrochoa.github.io/</link>
-    <description>Recent content on Archania</description>
+    <title>Posts on Archania</title>
+    <link>https://adrochoa.github.io/post/</link>
+    <description>Recent content in Posts on Archania</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 23 Jun 2024 21:07:12 -0500</lastBuildDate>
-    <atom:link href="https://adrochoa.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://adrochoa.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Seeking Deep Work</title>
       <link>https://adrochoa.github.io/post/seeking-deep-work/</link>
@@ -51,13 +51,6 @@
       <description>I have been on a journey toward digital minimalism so I have been changing up some of my tools and habits (I am typing this on an iPhone Mini 13 which is probably the most responsive device I own). I even debate whether I should replace any of my devices since I can survive with what I have. On my journey, I decided to try out mechanical keyboards. My initial impression is favorable as I like the aesthetic of them.</description>
     </item>
     <item>
-      <title></title>
-      <link>https://adrochoa.github.io/archives/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://adrochoa.github.io/archives/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Markdown Syntax Guide</title>
       <link>https://adrochoa.github.io/post/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
@@ -91,13 +84,6 @@
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       <guid>https://adrochoa.github.io/post/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://adrochoa.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://adrochoa.github.io/about/</guid>
-      <description>I work in the technology sector making mathematical solutions for mobile games of chance. My interests include science, technology, math and music. I enjoy playing and listening to mostly classical music. This is a website for me to share and document interests and projects.&#xA;Tech keyboard: HyperX Alloy Origin 65 keyboard mouse: Logitech Ergo M575 server: Debian 11 Bullseye GNOME (old Asus laptop for serving files, media, etc.) main: Arch Linux (btw) XFCE (old HP Stream laptop as my main computer) backup: Debian 11 Bullseye LXQT (old 32-bit Toshiba Sattelite laptop for backup) tv: Ubuntu 22.</description>
     </item>
   </channel>
 </rss>

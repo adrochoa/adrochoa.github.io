@@ -4,11 +4,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <title> - Archania</title>
+    <title>Excel Formulae - Archania</title>
 
     
     
-    <meta name="description" content="" />
+    <meta name="description" content="Here I will keep a list of useful formulae in Microsoft Excel. These will probably also work in other spreadsheet software such as Gnumeric or LibreOffice Calc.
+Lookup all values with corresponding key (spill) =FILTER($$key_range,key=$$value_range) Lookup right to left =INDEX($$total_range,MATCH(key,$$key_range,FALSE),1) Two way lookup =INDEX($$value_only_range,MATCH(row_key,$$row_range,FALSE),MATCH(column_key,$$column_range,FALSE)) Get every nth column (negative n goes backward) =OFFSET($first_cell,0,n*(COLUMN()-COLUMN($first_lookup_cell))) Get every nth row (negative n goes backward) =OFFSET($first_cell,n*(ROW()-ROW($first_lookup_cell)),0) Check whether cell contains character =ISNUMBER(SEARCH(char, cell)) http://www.gnumeric.org/ https://www." />
     <meta name="author" content="" />
     
 
@@ -65,9 +66,9 @@
         <div class="max-w:700 w:full box:content-box">
 <article class="box:border-box pt:32">
     <header class="mb:32">
-        <div class="font:40 font:extrabold"></div>
+        <div class="font:40 font:extrabold">Excel Formulae</div>
         <div class="mt:16 f:fade-60">
-            <time>May 28, 2019</time>
+            <time>Jun 23, 2024</time>
             </div>
     </header><div class="
     _:where(a):hover{text-decoration-color:fade}
@@ -106,7 +107,31 @@
     _:where(video,img){max-width:full}
     _:where(a,mark){text-underline-offset:3}
     _:where(hr){h:2;_bg:fade-10;_bg:fade-70@dark;_my:3em}
-"></div></article>
+"><p>Here I will keep a list of useful formulae in Microsoft Excel.
+These will probably also work in other spreadsheet software such as Gnumeric or LibreOffice Calc.</p>
+<h3 id="lookup-all-values-with-corresponding-key-spill">Lookup all values with corresponding key (spill)</h3>
+<pre><code>=FILTER($$key_range,key=$$value_range)
+</code></pre>
+<h3 id="lookup-right-to-left">Lookup right to left</h3>
+<pre><code>=INDEX($$total_range,MATCH(key,$$key_range,FALSE),1)
+</code></pre>
+<h3 id="two-way-lookup">Two way lookup</h3>
+<pre><code>=INDEX($$value_only_range,MATCH(row_key,$$row_range,FALSE),MATCH(column_key,$$column_range,FALSE))
+</code></pre>
+<h3 id="get-every-nth-column-negative-n-goes-backward">Get every <em>n</em>th column (negative <em>n</em> goes backward)</h3>
+<pre><code>=OFFSET($first_cell,0,n*(COLUMN()-COLUMN($first_lookup_cell)))
+</code></pre>
+<h3 id="get-every-nth-row-negative-n-goes-backward">Get every <em>n</em>th row (negative <em>n</em> goes backward)</h3>
+<pre><code>=OFFSET($first_cell,n*(ROW()-ROW($first_lookup_cell)),0)
+</code></pre>
+<h3 id="check-whether-cell-contains-character">Check whether cell contains character</h3>
+<pre><code>=ISNUMBER(SEARCH(char, cell))
+</code></pre>
+<ol>
+<li><a href="http://www.gnumeric.org/">http://www.gnumeric.org/</a></li>
+<li><a href="https://www.libreoffice.org/">https://www.libreoffice.org/</a></li>
+</ol>
+</div></article>
 <footer class="py:24">
     <div class="f:fade-30 f:14 mb:8"></div>
     <div class="f:fade-60 f:12">Theme <a class="f:bold" href="https://github.com/serkodev/holy" _target="_blank">Holy</a></div>
