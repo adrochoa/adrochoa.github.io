@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>archania</title>
-    <link>https://arochoa.github.io/</link>
+    <link>https://adrochoa.github.io/</link>
     <description>Recent content on archania</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Jun 2024 21:21:39 -0500</lastBuildDate>
-    <atom:link href="https://arochoa.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://adrochoa.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Musical Growth</title>
-      <link>https://arochoa.github.io/posts/musical-growth/</link>
+      <link>https://adrochoa.github.io/posts/musical-growth/</link>
       <pubDate>Sun, 23 Jun 2024 21:21:39 -0500</pubDate>
-      <guid>https://arochoa.github.io/posts/musical-growth/</guid>
+      <guid>https://adrochoa.github.io/posts/musical-growth/</guid>
       <description>Music is something that many grow fond of and attached to. It is natural that we can all find something in this space to enjoy. Some enjoy rock, others rap, country or just pop music in general whether from a bygone era or this one.&#xA;Then there are weirdos like myself who relish classical music, which I believe has stood the test of time.&#xA;I have a deep love of the classics: impressoinist, romantic, classical era and more recent music in classical styles.</description>
     </item>
     <item>
       <title>Seeking Deep Work</title>
-      <link>https://arochoa.github.io/posts/seeking-deep-work/</link>
+      <link>https://adrochoa.github.io/posts/seeking-deep-work/</link>
       <pubDate>Sun, 23 Jun 2024 21:07:12 -0500</pubDate>
-      <guid>https://arochoa.github.io/posts/seeking-deep-work/</guid>
+      <guid>https://adrochoa.github.io/posts/seeking-deep-work/</guid>
       <description>Having read Cal Newport&amp;rsquo;s Deep Work, I desire to document my pursuit in creating a better work-life balance by training my mind to be disciplined in this art of focus and &amp;ldquo;deep work&amp;rdquo;, a term that Newport contrasts with &amp;ldquo;shallow work&amp;rdquo;. I will write about my journey living a deep and focused life, pursuing my main interests of mathematics, music, spoken language and general nerd potpourri.&#xA;My life in code:</description>
     </item>
     <item>
       <title>Youtube Channels</title>
-      <link>https://arochoa.github.io/posts/youtube-channels/</link>
+      <link>https://adrochoa.github.io/posts/youtube-channels/</link>
       <pubDate>Sun, 23 Jun 2024 21:06:32 -0500</pubDate>
-      <guid>https://arochoa.github.io/posts/youtube-channels/</guid>
+      <guid>https://adrochoa.github.io/posts/youtube-channels/</guid>
       <description>Here are some YouTube channels that I enjoy:&#xA;https://www.youtube.com/c/OddTinkering Relaxing gadget restorations https://www.youtube.com/c/TechnologyConnections Interesting technology discussion https://www.youtube.com/c/brilliantclassics Beautiful classical music https://www.youtube.com/c/bach Netherland Bach Society, the oldest ongoing baroque ensemble (so much Bach!) https://www.youtube.com/c/rousseau Excellent piano playing focusing on the hands Search German in Venice A very cool German with content on Venice Beach in Southern California as well as the Greater Los Angeles Area https://www.youtube.com/c/TheCriticalDrinker Hilarious critiques of film and series (adult language) https://www.</description>
     </item>
     <item>
       <title>Simple Websites</title>
-      <link>https://arochoa.github.io/posts/simple-websites/</link>
+      <link>https://adrochoa.github.io/posts/simple-websites/</link>
       <pubDate>Sun, 23 Jun 2024 21:05:37 -0500</pubDate>
-      <guid>https://arochoa.github.io/posts/simple-websites/</guid>
+      <guid>https://adrochoa.github.io/posts/simple-websites/</guid>
       <description>Simple websites are great for quickly gathering information. I plan to keep this website simple and content-focused. Modern websites seem to have many layers of advertisements, audio, video and splash pages before getting to the desired content. Here are some websites that I think do a good job of focusing on content. I will revisit this page to add websites as I come across them.&#xA;http://wiby.me/ Search engine for the classic web https://teddit.</description>
     </item>
     <item>
       <title>Excel Formulae</title>
-      <link>https://arochoa.github.io/posts/excel-formulae/</link>
+      <link>https://adrochoa.github.io/posts/excel-formulae/</link>
       <pubDate>Sun, 23 Jun 2024 21:05:03 -0500</pubDate>
-      <guid>https://arochoa.github.io/posts/excel-formulae/</guid>
+      <guid>https://adrochoa.github.io/posts/excel-formulae/</guid>
       <description>Here I will keep a list of useful formulae in Microsoft Excel. These will probably also work in other spreadsheet software such as Gnumeric or LibreOffice Calc.&#xA;Lookup all values with corresponding key (spill) =FILTER($$key_range,key=$$value_range) Lookup right to left =INDEX($$total_range,MATCH(key,$$key_range,FALSE),1) Two way lookup =INDEX($$value_only_range,MATCH(row_key,$$row_range,FALSE),MATCH(column_key,$$column_range,FALSE)) Get every nth column (negative n goes backward) =OFFSET($first_cell,0,n*(COLUMN()-COLUMN($first_lookup_cell))) Get every nth row (negative n goes backward) =OFFSET($first_cell,n*(ROW()-ROW($first_lookup_cell)),0) Check whether cell contains character =ISNUMBER(SEARCH(char, cell)) http://www.gnumeric.org/ https://www.</description>
     </item>
     <item>
       <title>iSH App</title>
-      <link>https://arochoa.github.io/posts/ish-app/</link>
+      <link>https://adrochoa.github.io/posts/ish-app/</link>
       <pubDate>Sun, 23 Jun 2024 21:04:03 -0500</pubDate>
-      <guid>https://arochoa.github.io/posts/ish-app/</guid>
+      <guid>https://adrochoa.github.io/posts/ish-app/</guid>
       <description>Here is how I use the iSH app on my iPhone on iOS. This app is excellent. It basically puts an entire GNU/Linux distribution in an app with its own folder. From there I have nano, vi, vim etc for editing text files (eMacs would be weird over the small iOS keyboard). I can also keep and manage entire git repositories (which is how I can update this website on the go with my iPhone).</description>
     </item>
     <item>
       <title>Mechanical Keyboards</title>
-      <link>https://arochoa.github.io/posts/mechanical-keyboards/</link>
+      <link>https://adrochoa.github.io/posts/mechanical-keyboards/</link>
       <pubDate>Sun, 23 Jun 2024 21:03:18 -0500</pubDate>
-      <guid>https://arochoa.github.io/posts/mechanical-keyboards/</guid>
+      <guid>https://adrochoa.github.io/posts/mechanical-keyboards/</guid>
       <description>I have been on a journey toward digital minimalism so I have been changing up some of my tools and habits (I am typing this on an iPhone Mini 13 which is probably the most responsive device I own). I even debate whether I should replace any of my devices since I can survive with what I have. On my journey, I decided to try out mechanical keyboards. My initial impression is favorable as I like the aesthetic of them.</description>
     </item>
     <item>
       <title>First Post</title>
-      <link>https://arochoa.github.io/posts/first-post/</link>
+      <link>https://adrochoa.github.io/posts/first-post/</link>
       <pubDate>Sun, 23 Jun 2024 21:02:32 -0500</pubDate>
-      <guid>https://arochoa.github.io/posts/first-post/</guid>
+      <guid>https://adrochoa.github.io/posts/first-post/</guid>
       <description>Update: I have since switched to using Github Actions1. See my post here for the details. This way can still serve many people however, so this post will remain. What I like about using Github Actions is that it enables me to more easily update this site on the go.&#xA;This is a simple static website as a portfolio of my work and interests. I wanted to create a legitimate website and not only use social media (although I want to start using Twitter and Soundcloud too).</description>
     </item>
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://arochoa.github.io/posts/markdown-syntax/</link>
+      <link>https://adrochoa.github.io/posts/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://arochoa.github.io/posts/markdown-syntax/</guid>
+      <guid>https://adrochoa.github.io/posts/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rich Content</title>
-      <link>https://arochoa.github.io/posts/rich-content/</link>
+      <link>https://adrochoa.github.io/posts/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://arochoa.github.io/posts/rich-content/</guid>
+      <guid>https://adrochoa.github.io/posts/rich-content/</guid>
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Placeholder Text</title>
-      <link>https://arochoa.github.io/posts/placeholder-text/</link>
+      <link>https://adrochoa.github.io/posts/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://arochoa.github.io/posts/placeholder-text/</guid>
+      <guid>https://adrochoa.github.io/posts/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Math Typesetting</title>
-      <link>https://arochoa.github.io/posts/math-typesetting/</link>
+      <link>https://adrochoa.github.io/posts/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://arochoa.github.io/posts/math-typesetting/</guid>
+      <guid>https://adrochoa.github.io/posts/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Emoji Support</title>
-      <link>https://arochoa.github.io/posts/emoji-support/</link>
+      <link>https://adrochoa.github.io/posts/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://arochoa.github.io/posts/emoji-support/</guid>
+      <guid>https://adrochoa.github.io/posts/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
   </channel>
