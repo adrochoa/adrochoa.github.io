@@ -1,7 +1,7 @@
 base_url = "https://adrochoa.github.io"
-title = "still"
-description = "A minimal Zola theme focused on reading and writing."
-author = "still Demo"
+title = "Villa Arcana"
+description = "A place evoking the old internet."
+author = "Adrian Ochoa"
 compile_sass = true
 build_search_index = false
 generate_feeds = true
