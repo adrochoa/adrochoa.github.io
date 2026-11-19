@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="{{ config.default_language | default(value="en") }}">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <!-- Mobile responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+
+    {% if page %}
+      {% set current_title = page.title | default(value=config.title) %}
+      {% if current_title == config.title %}
+        {% set page_title = config.title %}
+      {% else %}
+        {% set page_title = current_title ~ " | " ~ config.title %}
+      {% endif %}
+      {% if page.description %}
+        {% set page_description = page.description | striptags | trim %}
+      {% elif page.summary %}
+        {% set page_description = page.summary | striptags | trim %}
+      {% elif config.description %}
+        {% set page_description = config.description | striptags | trim %}
+      {% else %}
+        {% set page_description = config.title %}
+      {% endif %}
+      {% set page_url = page.permalink %}
+    {% elif section %}
+      {% set current_title = section.title | default(value=config.title) %}
+      {% if current_title == config.title %}
+        {% set page_title = config.title %}
+      {% else %}
+        {% set page_title = current_title ~ " | " ~ config.title %}
+      {% endif %}
+      {% if section.description %}
+        {% set page_description = section.description | striptags | trim %}
+      {% elif config.description %}
+        {% set page_description = config.description | striptags | trim %}
+      {% else %}
+        {% set page_description = config.title %}
+      {% endif %}
+      {% set page_url = section.permalink %}
+    {% else %}
+      {% set page_title = config.title %}
+      {% if config.description %}
+        {% set page_description = config.description | striptags | trim %}
+      {% else %}
+        {% set page_description = config.title %}
+      {% endif %}
+      {% set page_url = config.base_url %}
+    {% endif %}
+
+    <title>{% block title %}{{ page_title }}{% endblock title %}</title>
+    <meta name="description" content="{{ page_description }}">
+    <link rel="canonical" href="{{ page_url }}">
+
+    <meta property="og:site_name" content="{{ config.title }}">
+    <meta property="og:title" content="{{ page_title }}">
+    <meta property="og:description" content="{{ page_description }}">
+    <meta property="og:url" content="{{ page_url }}">
+    <meta property="og:type" content="{% if page %}article{% else %}website{% endif %}">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ page_title }}">
+    <meta name="twitter:description" content="{{ page_description }}">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ get_url(path="main.css", trailing_slash=false) }}">
+
+    {% if config.generate_feeds %}
+      {% set feed_file = config.feed_filenames | first | default(value="atom.xml") %}
+      <link
+        rel="alternate"
+        type="{% if feed_file == "atom.xml" %}application/atom+xml{% else %}application/rss+xml{% endif %}"
+        title="RSS"
+        href="{{ get_url(path=feed_file) | safe }}"
+      >
+    {% endif %}
+
+    {% block extra_head %}{% endblock extra_head %}
+  </head>
+
+  <body>
+    <main class="content container px-2 pb-20">
+      {% block content %}{% endblock content %}
+    </main>
+  </body>
+</html>

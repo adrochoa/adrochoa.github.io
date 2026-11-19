@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% set date_format = config.extra.still_date_format | default(value="%Y-%m-%d") %}
+
+{% if section.content %}
+<article class="section-intro home-intro">
+  {{ section.content | safe }}
+</article>
+{% endif %}
+
+{% if section.pages %}
+<section class="post-listing" aria-label="Posts">
+  {% for post in section.pages %}
+  <article class="post-card">
+    <h2 class="post-card-title">
+      <a href="{{ post.permalink }}">{{ post.title }}</a>
+    </h2>
+    {% if post.date %}
+    <div class="post-date">{{ post.date | date(format=date_format) }}</div>
+    {% endif %}
+    {% if post.summary %}
+    <p class="post-card-summary">{{ post.summary | striptags | safe }}</p>
+    {% endif %}
+  </article>
+  {% endfor %}
+</section>
+{% endif %}
+{% endblock content %}

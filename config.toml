@@ -1,0 +1,13 @@
+base_url = "https://wjianbo.github.io/zola-theme-still"
+title = "still"
+description = "A minimal Zola theme focused on reading and writing."
+author = "still Demo"
+compile_sass = true
+build_search_index = false
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+default_language = "en"
+
+[extra]
+still_date_format = "%Y-%m-%d"
+still_show_author = true

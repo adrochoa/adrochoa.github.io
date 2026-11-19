@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% set date_format = config.extra.still_date_format | default(value="%Y-%m-%d") %}
+{% set home = get_section(path="_index.md") %}
+{% if section.ancestors %}
+  {% set parent = get_section(path=section.ancestors | last) %}
+  {% set back_url = parent.permalink %}
+{% else %}
+  {% set back_url = home.permalink %}
+{% endif %}
+
+<div class="post-back">
+  <a href="{{ back_url }}">← Back</a>
+</div>
+
+<h1>{{ section.title }}</h1>
+
+{% if section.content %}
+<article class="section-intro">
+  {{ section.content | safe }}
+</article>
+{% endif %}
+
+<ul class="post-list">
+  {% for post in section.pages %}
+  <li>
+    <a href="{{ post.permalink }}">{{ post.title }}</a>
+    {% if post.date %}
+    <span class="post-date">{{ post.date | date(format=date_format) }}</span>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+
+<div class="post-back">
+  <a href="{{ back_url }}">← Back</a>
+</div>
+
+{% endblock content %}
