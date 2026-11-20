@@ -1,7 +1,7 @@
 base_url = "https://adrochoa.github.io"
 title = "Villa Arcana"
 description = "A place evoking the old internet."
-author = "Adrian Ochoa"
+author = "Adrian"
 compile_sass = true
 build_search_index = false
 generate_feeds = true

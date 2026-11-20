@@ -12,6 +12,7 @@ It shows how the homepage, section listing, article pages, links, lists, and typ
 
 ### About me
 
+* a husband
 * a dad
 * a musician
 * a tinkerer 
@@ -21,6 +22,7 @@ It shows how the homepage, section listing, article pages, links, lists, and typ
 
 ### Read a few sample posts
 
+* [Posts](./posts/)
 * [Why I removed the Home button](./posts/why-no-home/)
 * [Designing for less, not more](./posts/designing-for-less/)
 * [Notes on writing in public](./posts/writing-in-public/)
