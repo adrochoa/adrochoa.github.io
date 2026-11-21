@@ -11,7 +11,7 @@ The theme keeps the structure intentionally spare:
 - the homepage can render an introduction followed by recent posts
 - section pages list entries with minimal chrome
 - post pages focus on typography, metadata, and a simple back link
-- light and dark color schemes are supported automatically
+- light and dark color schemes are supported automatically, including matching high-contrast colors for inline code and code blocks
 
 ## Features
 
