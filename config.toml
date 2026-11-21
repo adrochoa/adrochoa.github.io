@@ -11,3 +11,6 @@ default_language = "en"
 [extra]
 still_date_format = "%Y-%m-%d"
 still_show_author = true
+
+[markdown]
+bottom_footnotes = true

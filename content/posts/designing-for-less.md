@@ -14,4 +14,4 @@ In practice, that means:
 
 A theme like **still** tries to make those choices feel inevitable rather than impressive.
 
-[^1]: [https://github.com/wjianbo/zola-theme-still](https://github.com/wjianbo/zola-theme-still)
+1. [https://github.com/wjianbo/zola-theme-still](https://github.com/wjianbo/zola-theme-still)
