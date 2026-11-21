@@ -13,18 +13,11 @@ Some sound samples of my playing of the port are here, warts and all!
 
 J.S. Bach, BWV 939, Little Prelude in C Major
 
-<audio controls preload="none">
-  <source src="/audio/little-prelude-c.opus" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+{{ <audio src="little-prelude-c.opus" title="Little Prelude" /> }}
 
 J.S. Bach, BWV Anh. 132, Minuet in D Minor
 
-<audio controls preload="none">
-  <source src="/audio/minuet-d-minor.opus" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
+{{ <audio src="minuet-d-minor.opus" title="Minuet" /> }}
 
 1. [OpenWurli](https://github.com/hal0zer0/openwurli)
 2. [OpenWurli Faust port](https://gist.github.com/adrochoa/ebbacc116c189f06041b287a46ef5dff)

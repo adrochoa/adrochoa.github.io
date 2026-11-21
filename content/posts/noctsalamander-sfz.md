@@ -9,9 +9,6 @@ I think it sounds great, especially for being absolutely free.
 This is me playing the Sarabande from J.S. Bach's French Suite No. 4 in E♭ major, BWV 815.
 Enjoy!
 
-<audio controls preload="none">
-  <source src="/audio/EFlatSarabande.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
+{{ <audio src="EFlatSarabande.mp3" title="E-flat Sarabande" /> }}
 
 1. [Accurate Salamander Project](https://www.ir.isas.jaxa.jp/~cyamauch/AccurateSalamander/)

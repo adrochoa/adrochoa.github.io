@@ -1,0 +1,10 @@
+{% component audio(src: string, title: string = "") %}
+<figure class="audio-player">
+{% if title %}<figcaption>{{ title }}</figcaption>{% endif %}
+<audio controls preload="metadata" style="width: 100%;">
+<source src="{{ get_url(path='audio/' ~ src) }}">
+Your browser does not support the audio element.
+<a href="{{ get_url(path='audio/' ~ src) }}">Download the audio file</a>
+</audio>
+</figure>
+{% endcomponent audio %}
