@@ -11,3 +11,4 @@ A sound sample will come soon.
 
 1. [OpenWurli](https://github.com/hal0zer0/openwurli)
 2. [OpenWurli Faust port](https://gist.github.com/adrochoa/ebbacc116c189f06041b287a46ef5dff)
+3. [Faust](https://faust.grame.fr/)
