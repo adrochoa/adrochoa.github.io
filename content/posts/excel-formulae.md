@@ -1,7 +1,6 @@
 +++
-title = 'Excel Formulae'
-date = 2024-06-23T21:05:03-05:00
-draft = false
+title = "Excel Formulae"
+date = 2024-06-23
 +++
 
 Here I will keep a list of useful formulae in Microsoft Excel.

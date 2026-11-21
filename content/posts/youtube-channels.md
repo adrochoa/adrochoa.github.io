@@ -1,7 +1,6 @@
 +++
-title = 'Youtube Channels'
-date = 2024-06-23T21:06:32-05:00
-draft = false
+title = "Youtube Channels"
+date = 2024-06-23
 +++
 
 Here are some YouTube channels that I enjoy:

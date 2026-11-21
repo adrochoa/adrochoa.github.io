@@ -1,7 +1,6 @@
 +++
-title = 'Simple Websites'
-date = 2024-06-23T21:05:37-05:00
-draft = false
+title = "Simple Websites"
+date = 2024-06-23
 +++
 
 Simple websites are great for quickly gathering information.

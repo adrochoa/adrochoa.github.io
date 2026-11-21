@@ -1,7 +1,6 @@
 +++
-title = 'Musical Growth'
-date = 2024-06-23T21:21:39-05:00
-draft = false
+title = "Musical Growth"
+date = 2024-06-23
 +++
 
 Music is something that many grow fond of and attached to.

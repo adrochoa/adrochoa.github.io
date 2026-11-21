@@ -1,7 +1,6 @@
 +++
-title = 'First Post'
-date = 2024-06-23T21:02:32-05:00
-draft = false
+title = "First Post"
+date = 2024-06-23
 +++
 
 *Update: I have since switched to using Github Actions[^1]. See my post [here](/github-actions/) for the details. This way can still serve many people however, so this post will remain. What I like about using Github Actions is that it enables me to more easily update this site on the go.*

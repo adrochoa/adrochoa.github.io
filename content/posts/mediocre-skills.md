@@ -1,8 +1,10 @@
 +++
-title = 'On Mediocre Skills'
-date = 2024-07-05T21:21:39-05:00
-draft = false
+title = "On Mediocre Skills"
+date = 2024-07-05
 +++
+
+*I probably need to update this article.
+AI/LLM's have greatly increased what people can accomplish, even with a mediocre skill.*
 
 I recently read (sight book here) that there is much value in building mastery to skills.
 I should cite what I read (Atomic Habits), but the author mentions the creator of Dilbert, the newspaper comic.

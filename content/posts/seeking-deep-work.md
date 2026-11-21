@@ -1,7 +1,6 @@
 +++
-title = 'Seeking Deep Work'
-date = 2024-06-23T21:07:12-05:00
-draft = false
+title = "Seeking Deep Work"
+date = 2024-06-23
 +++
 
 Having read Cal Newport's Deep Work, I desire to document my pursuit in creating a better work-life balance by training my mind to be disciplined in this art of focus and "deep work", a term that Newport contrasts with "shallow work". I will write about my journey living a deep and focused life, pursuing my main interests of mathematics, music, spoken language and general nerd potpourri.

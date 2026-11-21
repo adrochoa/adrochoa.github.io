@@ -1,7 +1,6 @@
 +++
-title = 'Mechanical Keyboards'
-date = 2024-06-23T21:03:18-05:00
-draft = false
+title = "Mechanical Keyboards"
+date = 2024-06-23
 +++
 
 I have been on a journey toward digital minimalism so I have been changing up some of my tools and habits
@@ -35,4 +34,3 @@ These are nice keyboards for dipping your toes into the mechanical keyboard worl
 [^3]: [https://github.com/qmk/qmk_firmware/tree/master/keyboards/thevankeyboards/minivan/keymaps/jetpacktuxedo](https://github.com/qmk/qmk_firmware/tree/master/keyboards/thevankeyboards/minivan/keymaps/jetpacktuxedo)
 [^4]: [https://github.com/adrochoa/qmk_firmware/tree/personal](https://github.com/adrochoa/qmk_firmware/tree/personal)
 [^5]: [https://evantravers.com/articles/2019/04/20/community-post-40-keyboard-layouts/](https://evantravers.com/articles/2019/04/20/community-post-40-keyboard-layouts/)
-

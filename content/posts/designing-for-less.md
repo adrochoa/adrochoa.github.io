@@ -1,5 +1,5 @@
 +++
-title = "Designing for less, not more"
+title = "My theme of choice"
 date = 2026-03-17
 +++
 
@@ -13,3 +13,5 @@ In practice, that means:
 * resisting components that call attention to themselves
 
 A theme like **still** tries to make those choices feel inevitable rather than impressive.
+
+[^1]: [https://github.com/wjianbo/zola-theme-still](https://github.com/wjianbo/zola-theme-still)
