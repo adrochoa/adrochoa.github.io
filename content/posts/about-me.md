@@ -39,10 +39,7 @@ I am studying guitar and piano as a somewhat serious amateur, with the goal of b
 I love the mandolin and ukulele for their characterful timres, but I prefer the polyphony and harmonic possibilities of guitar and piano.
 Playing anything besides keys and plucked strings is rare these days.
 
-{{< fontawesome "twitter" >}} [Twitter](https://twitter.com/adrochoa)
-
-{{< fontawesome "soundcloud" >}} [SoundCloud](https://soundcloud.com/)
-
-{{< fontawesome "youtube" >}} [YouTube](https://youtube.com)
-
-{{< fontawesome "github-alt" >}} [GitHub](https://github.com/adrochoa)
+1. [Twitter](https://twitter.com/adrochoa)
+2. [SoundCloud](https://soundcloud.com/)
+3. [YouTube](https://youtube.com)
+4. [GitHub](https://github.com/adrochoa)
