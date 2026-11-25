@@ -1,34 +1,38 @@
 :root {
-  --bg: #ffffff;
-  --text: #111111;
-  --muted: #777777;
-  --border: #e5e5e5;
+  --bg: #f6f1e7;
+  --text: #4a433a;
+  --muted: #756b5d;
+  --border: #ded5c6;
 
-  --headings: #111111;
-  --body: #111111;
-  --bullets: #999999;
-  --quote-borders: #dddddd;
+  --headings: #3d372f;
+  --body: #4a433a;
+  --bullets: #a89e8d;
+  --quote-borders: #d5c9b7;
+  --link-hover: #9a5b3c;
+  --hr: rgba(123, 101, 74, 0.18);
 
-  --code-bg: #f2f2f2;
-  --code-text: #111111;
-  --code-border: #e5e5e5;
+  --code-bg: #f2e5bc;
+  --code-text: #3c3836;
+  --code-border: #d9cdb0;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0f0f0f;
-    --text: #eaeaea;
-    --muted: #9a9a9a;
-    --border: #2a2a2a;
+    --bg: #1d1b19;
+    --text: #d9d0c1;
+    --muted: #9e9384;
+    --border: #3a342e;
 
-    --headings: #eaeaea;
-    --body: #eaeaea;
-    --bullets: #666666;
-    --quote-borders: #333333;
+    --headings: #e5dccd;
+    --body: #d9d0c1;
+    --bullets: #786e61;
+    --quote-borders: #423b33;
+    --link-hover: #d6a07b;
+    --hr: rgba(226, 208, 180, 0.14);
 
-    --code-bg: #1c1c1c;
-    --code-text: #eaeaea;
-    --code-border: #333333;
+    --code-bg: #32302f;
+    --code-text: #ebdbb2;
+    --code-border: #4a4239;
   }
 }
 
@@ -108,8 +112,8 @@ a {
 }
 
 a:hover {
-  color: #4a6fa5;
-  border-bottom-color: #4a6fa5;
+  color: var(--link-hover);
+  border-bottom-color: var(--link-hover);
 }
 
 ul {
@@ -176,6 +180,23 @@ pre {
   background: var(--code-bg);
   color: var(--code-text);
   border: 1px solid var(--code-border);
+}
+
+/* Zola's syntax highlighter wraps each highlighted line in these spans. */
+.giallo-l {
+  display: inline-block;
+  min-height: 1lh;
+  width: 100%;
+}
+
+.giallo-ln {
+  display: inline-block;
+  user-select: none;
+  margin-right: 0.4em;
+  padding: 0.4em;
+  min-width: 3ch;
+  text-align: right;
+  opacity: 0.8;
 }
 
 .px-2 {
@@ -275,14 +296,8 @@ pre {
 hr {
   border: none;
   height: 1px;
-  background-color: rgba(0, 0, 0, 0.06);
+  background-color: var(--hr);
   margin: 3rem 0;
-}
-
-@media (prefers-color-scheme: dark) {
-  hr {
-    background-color: rgba(255, 255, 255, 0.08);
-  }
 }
 
 code {

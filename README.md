@@ -11,11 +11,12 @@ The theme keeps the structure intentionally spare:
 - the homepage can render an introduction followed by recent posts
 - section pages list entries with minimal chrome
 - post pages focus on typography, metadata, and a simple back link
-- light and dark color schemes are supported automatically, including matching high-contrast colors for inline code and code blocks
+- soft, warm light and dark color schemes are supported automatically, with matching syntax highlighting for code
 
 ## Features
 
-- Minimal monochrome presentation for long-form writing
+- Warm, low-contrast presentation for long-form writing
+- Gruvbox "soft" syntax highlighting that follows the light/dark preference
 - Homepage intro plus post listing by default
 - Section index pages with consistent date formatting
 - Optional author signature in post footers

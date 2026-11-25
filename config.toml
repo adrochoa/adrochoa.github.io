@@ -8,6 +8,11 @@ generate_feeds = true
 feed_filenames = ["atom.xml"]
 default_language = "en"
 
+# Warm, low-contrast Gruvbox "soft" themes follow the reader's light/dark preference.
+[markdown.highlighting]
+light_theme = "gruvbox-light-soft"
+dark_theme = "gruvbox-dark-soft"
+
 [extra]
 still_date_format = "%Y-%m-%d"
 still_show_author = true
